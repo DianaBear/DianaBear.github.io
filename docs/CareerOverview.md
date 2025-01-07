@@ -11,6 +11,19 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 - Utilized Python library Pandas to analyze and predict weather patterns
 - Implemented machine learning algorithms to predict future weather conditions
 
+##Professional Experience:
+-Finance Specialist at A&H Auto Sales, Greenville, SC
+-Financial Assistant at SB Trucking
+-IT Site Support at Vertiv Anderson, SC (Summer 2025)
+
+##Skills:
+- Proficient in C
+- Microsoft Access
+- Proficient in C++
+- Intro Level Python
+- Linux
+- Intro Level Java
+- Microsoft Office Specialist (MOS)
 
 ##Relevant Courses:
 - Web Site Design
@@ -25,26 +38,11 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 - Software Development Foundations
 - Computer Organization
 - Human Centered Artificial Intelligence
-- Applied Data Science 
+- Applied Data Science
 - Introduction to Software Engineering
 - ST: Emb Systems
 - Creative Inquiry: Hands-on Quantum Computing
 - Creative Inquiry: Privacy Compliance in Software Development
-- 
-
-##Skills:
-- Proficient in C
-- Microsoft Access
-- Proficient in C++
-- Intro Level Python
-- Linux
-- Intro Level Java
-- Microsoft Office Specialist (MOS)
-
-##Professional Experience:
--Finance Specialist at A&H Auto Sales, Greenville, SC
--Financial Assistant at SB Trucking
--IT Site Support at Vertiv Anderson, SC (Summer 2025)
 
 ##My Resume
 Link to my updated resume:
