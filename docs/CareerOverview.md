@@ -11,12 +11,14 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 - Utilized Python library Pandas to analyze and predict weather patterns
 - Implemented machine learning algorithms to predict future weather conditions
 
-##Professional Experience:
--Finance Specialist at A&H Auto Sales, Greenville, SC
+Professional Experience:
+- Finance Specialist at A&H Auto Sales, Greenville, SC
 -Financial Assistant at SB Trucking
 -IT Site Support at Vertiv Anderson, SC (Summer 2025)
 
-##Skills:
+
+
+Skills:
 - Proficient in C
 - Microsoft Access
 - Proficient in C++
@@ -25,7 +27,7 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 - Intro Level Java
 - Microsoft Office Specialist (MOS)
 
-##Relevant Courses:
+Relevant Courses:
 - Web Site Design
 - Intro to Programming Logic
 - C Programming
@@ -44,7 +46,7 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 - Creative Inquiry: Hands-on Quantum Computing
 - Creative Inquiry: Privacy Compliance in Software Development
 
-##My Resume
+My Resume
 Link to my updated resume:
 https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing
 Link to my LinkedIn profile:
@@ -52,7 +54,7 @@ https://www.linkedin.com/in/dianabear/
 My LinkedIn profile and resume are updated at the end of each semester to reflect my latest coursework, projects,
 and achievements.
 
-##Menu
+Menu
 - [About Me](about.md)
 - [Public Resume and LinkedIn](Resume.md)
 - [index](index.md)
