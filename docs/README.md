@@ -11,7 +11,7 @@ permalink: /
 </div>
 
 
-## About
+## About Me
 
 This project is built around using markdown content to make a website. 
 
@@ -22,22 +22,13 @@ This repo is super light. No config needed. You don't need to setup a theme or a
 The page you are currently viewing is `README.md` in the docs directory, with path set as `/` in the frontmatter. Alternatively, you can add `index.md` or `index.html` as your homepage. I just like how a README.md previews well in GitHub.
 
 
-## How to use this project
-
-- Template for a new project or docs site. Or use as a reference for existing projects.
-- Read the tutorial content under template notes.
-- View this live demo site.
-
 
 ## Menu
 
 Some info on how to make a site like this and how it works.
 
-- [About](about.md)
-- [Features](features.md)
-- [Limitations](limitations.md)
-- [What about a Wiki?](wiki.md)
-
+- [Public Resume](about.md)
+- [Code Snippets](features.md)
 
 ## Source
 
