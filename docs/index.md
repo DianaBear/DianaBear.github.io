@@ -2,7 +2,6 @@
 permalink: /
 ---
 # **Diana Barakat**
-> A little about me
 
 ## About Me
 I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate
@@ -21,6 +20,6 @@ Relevant Links:
 
 ## How to contact me 
 - Clemson Email: dbaraka@clemson.edu
-- Vertiv Email:
+- Vertiv Email: -----
 - LinkedIn: [Diana Barakat](https://www.linkedin.com/in/dianabear/)
-- GitHub: [Diana Barakat](DianaBear)
+- GitHub Username:DianaBear

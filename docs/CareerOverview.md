@@ -13,8 +13,8 @@ Personal Projects: Weather Predictions using Machine Learning (python)
 
 Professional Experience:
 - Finance Specialist at A&H Auto Sales, Greenville, SC
--Financial Assistant at SB Trucking
--IT Site Support at Vertiv Anderson, SC (Summer 2025)
+- Financial Assistant at SB Trucking
+- IT Site Support at Vertiv Anderson, SC (Summer 2025)
 
 
 
