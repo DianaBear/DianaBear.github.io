@@ -28,7 +28,7 @@ The page you are currently viewing is `README.md` in the docs directory, with pa
 Some info on how to make a site like this and how it works.
 
 - [Public Resume](about.md)
-- [Code Snippets](features.md)
+- [Code Snippets](Resume)
 
 ## Source
 
