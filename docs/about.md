@@ -1,10 +1,8 @@
-# DianaBear's Portfolio
-
-## **About ME**
+## **About Diana Barakat**
 
 I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate
 in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial 
-intelligence, machine learning, and privacy compliance in software development. These interests reflect my passion
+intelligence and machine learning. These interests reflect my passion
 for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both 
 technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of 
 technology.
@@ -22,4 +20,4 @@ landscape.
 Relevant Links:
 - [HomePage](index.md)
 - [Public Resume and LinkedIn](Resume.md)
-- [Career Overview](careerOverview.md)
+- [Career Overview](CareerOverview.md)
