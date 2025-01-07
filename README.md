@@ -11,7 +11,7 @@ Write Markdown or HTML pages and use GitHub's default theme for your site. No co
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/gh-pages-no-jekyll/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="350" />
+        <img src="/clemsonPaw.png" alt="Sample screenshot" title="Sample screenshot" width="350" />
     </a>
 </div>
 
