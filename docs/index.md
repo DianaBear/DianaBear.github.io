@@ -16,10 +16,10 @@ Relevant Links:
 
 - [About Me](about.md)
 - [Public Resume and LinkedIn](Resume.md)
-- [Career Overview](careerOverview.md)
+- [Career Overview](CareerOverview.md)
 
 ## How to contact me 
 - Clemson Email: dbaraka@clemson.edu
 - Vertiv Email: -----
 - LinkedIn: [Diana Barakat](https://www.linkedin.com/in/dianabear/)
-- GitHub Username:DianaBear
+- GitHub Username: DianaBear

@@ -57,4 +57,4 @@ and achievements.
 Menu
 - [About Me](about.md)
 - [Public Resume and LinkedIn](Resume.md)
-- [index](index.md)
+- [Home](index.md)

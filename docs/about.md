@@ -18,6 +18,6 @@ landscape.
 
 ## Menu
 Relevant Links:
-- [HomePage](index.md)
+- [Home](index.md)
 - [Public Resume and LinkedIn](Resume.md)
 - [Career Overview](CareerOverview.md)
