@@ -1,0 +1,48 @@
+/* General background and text color */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+/* Links with pink accents */
+a {
+    color: #ff69b4; /* Light pink */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff1493; /* Deeper pink for hover effect */
+    text-decoration: underline;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff; /* White header background */
+    border-bottom: 2px solid #ff69b4; /* Pink border */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffffff; /* White footer background */
+    border-top: 2px solid #ff69b4; /* Pink border */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #ff69b4; /* Light pink */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff1493; /* Deeper pink */
+}
+
