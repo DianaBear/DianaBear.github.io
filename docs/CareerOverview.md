@@ -72,7 +72,6 @@ Menu
 - [About Me](about.md)
 - [Public Resume and LinkedIn](Resume.md)
 - [Home](index.md) -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
