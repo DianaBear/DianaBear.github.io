@@ -1,28 +1,28 @@
 ---
-layout: default
+permalink: /index
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Barakat | Clemson Computer Science</title>
     <style>
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #F2F3F2;
             color: #333;
-            text-align: center;
         }
 
+        /* Navbar */
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #F66733;
+            background: #F66733; /* Clemson Orange */
             color: white;
         }
 
@@ -48,6 +48,7 @@ layout: default
             text-decoration: underline;
         }
 
+        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #F66733, #522D80);
             color: white;
@@ -75,16 +76,18 @@ layout: default
         }
 
         .cta:hover {
-            background: #FFC107;
+            background: #FFC107; /* Gold highlight effect */
             color: #333;
         }
 
+        /* Sections */
         .about, .projects, .contact {
             padding: 60px 20px;
             max-width: 800px;
             margin: auto;
         }
 
+        /* Projects */
         .project-container {
             display: flex;
             justify-content: center;
@@ -107,6 +110,7 @@ layout: default
             transition: 0.3s;
         }
 
+        /* Contact */
         .contact-btn {
             display: inline-block;
             padding: 12px 24px;
@@ -121,40 +125,47 @@ layout: default
             background: #F66733;
         }
 
+        /* Footer */
         .footer {
             background: #333;
             color: white;
             padding: 10px;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            text-align: left;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <p>&copy; 👩🏻‍💻 Diana Barakat</p>
+        <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/resume">Resume</a></li>
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About Me</a></li>
+            <li><a href="CareerOverview.md">Career Overview</a></li>
+            <li><a href="Resume.md">Resume</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My World!</h1>
-        <p>Computer Science Enthusiast | Clemson Tiger | Tech Explorer</p>
+        <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
-    <!-- About Me -->
-    <section id="about" class="about">
+    <!-- About Me Section -->
+    <section class="about">
         <h2>About Me</h2>
         <p>Hey there! I'm Diana, a passionate computer science student at Clemson University. I love exploring APIs, microservices, and all things tech. Let’s build something amazing!</p>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="projects">
+    <!-- Projects Section -->
+    <section class="projects">
         <h2>My Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -176,11 +187,17 @@ layout: default
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
+    <!-- Contact Section -->
+    <section class="contact">
         <h2>Contact Me</h2>
-        <p>Let's connect! Reach out via email or find me on GitHub.</p>
-        <a href="mailto:diana@example.com" class="contact-btn">Email Me</a>
+        <div class="contact-info">
+            <p>Feel free to connect with me via the following:</p>
+            <ul>
+                <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
+                <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- Footer -->
