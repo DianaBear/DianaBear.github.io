@@ -160,7 +160,7 @@
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My World!</h1>
-        <p>Computer Science Enthusiast | Clemson Tiger | Tech Explorer</p>
+        <p>Computer Science Student at Clemson Univeristy | Intern at Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -197,7 +197,7 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>Let's connect! Reach out via email or find me on GitHub.</p>
-        <a href="mailto:diana@example.com" class="contact-btn">Email Me</a>
+        <a href="mailto:dbaraka@clemson.edu" class="contact-btn">Email Me</a>
     </section>
 
     <!-- Footer -->
