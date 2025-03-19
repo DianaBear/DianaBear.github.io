@@ -1,90 +1,132 @@
-<!-- <!DOCTYPE html> -->
+---
+permalink: /about
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Diana Barakat</title>
     <style>
+        /* Global Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #F2F3F2;
             color: #333;
             text-align: center;
         }
-        .banner {
-            background: linear-gradient(135deg, #F66733, #522D80); /* Clemson Orange & Purple */
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #F66733; /* Clemson Orange */
             color: white;
-            padding: 50px 20px;
-            font-size: 32px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
         }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            text-align: left;
-        }
-        h2 {
-            color: #522D80; /* Clemson Purple */
-        }
-        h3 {
-            color: #F66733; /* Clemson Orange */
-        }
-        ul {
-            list-style-type: none;
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
             padding: 0;
         }
-        li {
-            margin: 10px 0;
+
+        .nav-links li {
+            display: inline;
         }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #522D80;
+
+        .nav-links li a {
             color: white;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 5px;
-            margin: 10px;
+            padding: 10px;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #F66733, #522D80);
+            color: white;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
+            color: #F66733;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background: #FFC107; /* Gold highlight effect */
+            color: #333;
+        }
+
+        /* Sections */
+        .about {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #F66733;
+            font-size: 2rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: #333;
+            color: white;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">🐅 DianaBear</div>
+        <ul class="nav-links">
+            <li><a href="/about">About</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/careeroverview">Career Overview</a></li>
+        </ul>
+    </nav>
 
-<div class="banner"> About Diana Barakat</div>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>About Me</h1>
+        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University.</p>
+    </header>
 
-<section>
-    <h2>💻 About Me</h2>
-    <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial intelligence and machine learning. These interests reflect my passion for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of technology.</p>
-</section>
+    <!-- About Me Section -->
+    <section class="about">
+        <h2>Who I Am</h2>
+        <p>I have a deep fascination with cutting-edge technologies, particularly in AI, machine learning, and cybersecurity.</p>
+    </section>
 
-<section>
-    <h2>🎯 My Goals as a Student</h2>
-    <p>My goal is to become a Cybersecurity Analyst, where I can apply my skills to protect systems and safeguard data in an increasingly digital world. While I have a clear end goal, I am also taking the time to explore different areas of computer science to discover what excites me most. Whether it’s diving deeper into AI, studying cybersecurity threats, or experimenting with software development, I believe this exploration will help me grow both personally and professionally. I am driven by a desire to learn, adapt, and contribute meaningfully to the ever-evolving tech landscape.</p>
-</section>
-
-<section>
-    <h3>📚 Relevant Links:</h3>
-    <ul>
-        <li><a href="index.md" class="btn">🏠 Home</a></li>
-        <li><a href="Resume.md" class="btn">📄 Public Resume and LinkedIn</a></li>
-        <li><a href="CareerOverview.md" class="btn">🚀 Career Overview</a></li>
-    </ul>
-</section>
-
-<footer>
-    &copy; 2025 Diana Barakat
-</footer>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 DianaBear </p>
+    </footer>
 </body>
 </html>

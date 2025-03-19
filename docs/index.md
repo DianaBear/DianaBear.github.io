@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+---
+permalink: /
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Clemson Computer Scientist</title>
+    <title>Diana Barakat | Home</title>
     <style>
         /* Global Styles */
         body {
@@ -49,7 +51,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #F66733, #522D80); /* Clemson Theme */
+            background: linear-gradient(135deg, #F66733, #522D80);
             color: white;
             padding: 80px 20px;
         }
@@ -131,19 +133,6 @@
             padding: 10px;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.nav-links li a').forEach(link => {
-                link.addEventListener('mouseover', () => {
-                    link.style.textDecoration = 'underline';
-                });
-
-                link.addEventListener('mouseout', () => {
-                    link.style.textDecoration = 'none';
-                });
-            });
-        });
-    </script>
 </head>
 <body>
     <!-- Navbar -->
@@ -166,7 +155,7 @@
     <!-- About Me -->
     <section id="about" class="about">
         <h2>About Me</h2>
-        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial intelligence, machine learning, and privacy compliance in software development. These interests reflect my passion for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of technology.</p>
+        <p>Hey there! I'm Diana, a passionate computer science student at Clemson University. I love exploring APIs, microservices, and all things tech. Let’s build something amazing!</p>
     </section>
 
     <!-- Projects -->
@@ -188,15 +177,12 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>Let's connect! Reach out via email or find me on GitHub.</p>
-        <p>Clemson Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/" target="_blank">Diana Barakat</a></p>
-        <p>GitHub: <a href="https://github.com/DianaBear" target="_blank">DianaBear</a></p>
-        <a href="mailto:dbaraka@clemson.edu" class="contact-btn">Email Me</a>
+        <a href="mailto:diana@example.com" class="contact-btn">Email Me</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear | Clemson Proud 🐅</p>
+        <p>&copy; 2025 DianaBear </p>
     </footer>
 </body>
 </html>

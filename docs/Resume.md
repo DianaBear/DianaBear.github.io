@@ -1,7 +1,6 @@
 ---
 permalink: /resume
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,7 +81,7 @@ permalink: /resume
             color: #333;
         }
 
-        /* Sections */
+        /* Resume Content */
         .resume-section {
             padding: 60px 20px;
             max-width: 800px;
@@ -122,11 +121,11 @@ permalink: /resume
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">🐅 DianaBear</div>
+        <div class="logo"> DianaBear</div>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/careeroverview">Career Overview</a></li>
         </ul>
     </nav>
 
@@ -166,7 +165,7 @@ permalink: /resume
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear | Clemson Proud 🐅</p>
+        <p>&copy; 2025 DianaBear</p>
     </footer>
 </body>
 </html>
