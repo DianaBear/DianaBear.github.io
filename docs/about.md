@@ -1,4 +1,4 @@
-!-- ## **About Diana Barakat**
+## **About Diana Barakat**
 
 I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate
 in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial 
