@@ -144,7 +144,7 @@ Menu
     <h2>📚 Undergraduate Research</h2>
     <ul>
         <li>🔬 Privacy Compliance in Software Development (Fall 2024)</li>
-        <li>🧑‍💻 Quantum Computing (Spring 2025)</li>
+        <li>👩🏻‍💻 Quantum Computing (Spring 2025)</li>
         <li>🚀 TBD – Coming Soon!</li>
     </ul>
 </section>
