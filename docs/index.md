@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,7 +80,9 @@
         }
 
         /* Sections */
-        .about, .projects, .contact {
+        .about,
+        .projects,
+        .contact {
             padding: 60px 20px;
             max-width: 800px;
             margin: auto;
@@ -131,7 +134,7 @@
         }
     </style>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll('.nav-links li a').forEach(link => {
                 link.addEventListener('mouseover', () => {
                     link.style.textDecoration = 'underline';
@@ -144,22 +147,23 @@
         });
     </script>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-    <p>&copy; 👩🏻‍💻 Diana Barakat</p>
-    <nav class="nav-links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/resume">Resume</a>
+        <p>&copy; 👩🏻‍💻 Diana Barakat</p>
+        <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/resume">Resume</a>
+        </nav>
     </nav>
-    
 
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My World!</h1>
-        <p>Computer Science Enthusiast | Clemson Tiger | Tech Explorer</p>
+        <p>Computer Science Student | Clemson Tiger | Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -196,12 +200,13 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>Let's connect! Reach out via email or find me on GitHub.</p>
-        <a href="mailto:diana@example.com" class="contact-btn">Email Me</a>
+        <a href="mailto:dbaraka@clemson.edu" class="contact-btn">Email Me</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear | Clemson University</p>
+        <p>&copy; 2025 Diana Barakat | Clemson University</p>
     </footer>
 </body>
+
 </html>
