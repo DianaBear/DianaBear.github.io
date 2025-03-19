@@ -5,9 +5,8 @@ permalink: /resume
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Resume</title>
+    <title>Resume | Diana Barakat</title>
     <style>
-        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -81,32 +80,10 @@ permalink: /resume
             color: #333;
         }
 
-        /* Resume Content */
-        .resume-section {
+        .section {
             padding: 60px 20px;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-        }
-
-        h2 {
-            color: #F66733;
-            font-size: 2rem;
-        }
-
-        /* Resume Content */
-        .resume-content {
-            background: white;
-            padding: 30px;
-            border: 2px solid #F66733;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        .resume-content p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #333;
         }
 
         /* Footer */
@@ -115,53 +92,25 @@ permalink: /resume
             color: white;
             padding: 10px;
         }
-
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo"> DianaBear</div>
+        <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/careeroverview">Career Overview</a></li>
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About Me</a></li>
+            <li><a href="careerOverview.md">Career Overview</a></li>
+            <li><a href="resume.md">Resume</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
-        <h1>My Resume</h1>
-        <p>Explore my journey, skills, and achievements as a Clemson Tiger and aspiring Cybersecurity Analyst.</p>
+        <h1>Resume</h1>
+        <p>Here’s an overview of my academic achievements and experience.</p>
     </header>
-
-    <!-- Resume Content -->
-    <section class="resume-section">
-        <div class="resume-content">
-            <h2>Updated Resume</h2>
-            <p>You can view my latest resume here: <a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing" target="_blank">My Resume</a></p>
-        </div>
-
-        <div class="resume-content">
-            <h2>LinkedIn Profile</h2>
-            <p>Connect with me professionally through my LinkedIn profile: <a href="https://www.linkedin.com/in/dianabear/" target="_blank">LinkedIn - Diana Barakat</a></p>
-        </div>
-
-        <div class="resume-content">
-            <h2>Note:</h2>
-            <p>I regularly update my resume and LinkedIn profile at the end of each semester to reflect my latest coursework, projects, and achievements.</p>
-        </div>
-    </section>
-
-    <!-- Relevant Links -->
-    <section class="resume-section">
-        <h2>Relevant Links</h2>
-        <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-        </ul>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">

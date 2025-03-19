@@ -1,11 +1,9 @@
----
-permalink: /
----
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Home</title>
+    <title>Diana Barakat | Vertiv Intern </title>
     <style>
         /* Global Styles */
         body {
@@ -133,15 +131,29 @@ permalink: /
             padding: 10px;
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.nav-links li a').forEach(link => {
+                link.addEventListener('mouseover', () => {
+                    link.style.textDecoration = 'underline';
+                });
+
+                link.addEventListener('mouseout', () => {
+                    link.style.textDecoration = 'none';
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">🐅 DianaBear</div>
+        <div class="logo">👩🏻‍💻 DianaBear</div>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About</a></li>
+            <li><a href="CareerOverview.md">Career Overview</a></li>
+            <li><a href="Resume.md">Resume</a></li>
         </ul>
     </nav>
 
@@ -170,6 +182,14 @@ permalink: /
                 <h3>Image Stacking in C</h3>
                 <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
             </div>
+            <div class="project-card">
+                <h3>Weather Predictor (Python)</h3>
+                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms. Built using the Pandas library in Python.</p>
+            </div>
+            <div class="project-card">
+                <h3>DianaBear Typing Game (C)</h3>
+                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics. Built in C with a timer and WPM calculation.</p>
+            </div>
         </div>
     </section>
 
@@ -182,7 +202,7 @@ permalink: /
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear </p>
+        <p>&copy; 2025 DianaBear | Clemson University</p>
     </footer>
 </body>
 </html>

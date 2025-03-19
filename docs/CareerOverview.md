@@ -72,15 +72,13 @@ Menu
 - [About Me](about.md)
 - [Public Resume and LinkedIn](Resume.md)
 - [Home](index.md) -->
----
-permalink: /careerOverview
----
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Overview | Diana Barakat</title>
     <style>
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -122,125 +120,91 @@ permalink: /careerOverview
             text-decoration: underline;
         }
 
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, #F66733, #522D80);
-            color: white;
-            padding: 80px 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-        }
-
-        .cta {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
-            color: #F66733;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            transition: 0.3s;
-        }
-
-        .cta:hover {
-            background:rgb(255, 7, 164); /* Gold highlight effect */
-            color: #333;
-        }
-
+        /* Sections */
         .section {
             padding: 60px 20px;
-            max-width: 900px;
+            max-width: 800px;
             margin: auto;
         }
 
-        /* Footer */
-        .footer {
-            background: #333;
-            color: white;
-            padding: 10px;
+        h2 {
+            color: #F66733;
+        }
+
+        .career-overview ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .career-overview li {
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">DianaBear</div>
+        <div class="logo">👩🏻‍💻 DianaBear</div>
         <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="resume.md">Resume</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Resume.html">Resume</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <h1>Career Overview</h1>
-        <p>Explore my academic journey, personal projects, and professional experience</p>
-    </header>
-
     <!-- Career Overview Section -->
-    <section class="section">
-        <h2>Education</h2>
-        <p><strong>Clemson University, Clemson, SC</strong><br>
-        B.S. in Computer Information Systems (Expected May 2026)<br>
-        Minor in Cybersecurity<br>
-        August 2023 – Present</p>
+    <section class="section career-overview">
+        <h2>Career Overview</h2>
+        
+        <h3>Clemson University, Clemson, SC (August 2023 – Present)</h3>
+        <p><strong>B.S. Computer Information Systems</strong><br>
+        <strong>Minor in Cybersecurity</strong></p>
 
-        <p><strong>Tri-County Technical College, Pendleton, SC</strong><br>
-        University Studies Certificate<br>
-        December 13, 2022</p>
+        <h3>Tri-County Technical College, Pendleton, SC (August 2021 – June 2022)</h3>
+        <p><strong>University Studies Certificate</strong> (Graduated December 13, 2022)</p>
 
-        <h2>Undergraduate Research</h2>
+        <h3>Undergraduate Research:</h3>
         <ul>
-            <li>Privacy Compliance in Software Development (Fall 2024)</li>
-            <li>Quantum Computing (Spring 2025)</li>
-            <li>TBD</li>
+            <li><strong>Privacy Compliance in Software Development</strong> (Fall 2024)</li>
+            <li><strong>Quantum Computing</strong> (Spring 2025)</li>
+            <li><strong>TBD</strong></li>
         </ul>
 
-        <h2>Personal Projects</h2>
-        <h3>Weather Predictions using Machine Learning (Python)</h3>
+        <h3>Personal Projects:</h3>
         <ul>
-            <li>Utilized Python library Pandas to analyze and predict weather patterns</li>
-            <li>Implemented machine learning algorithms to predict future weather conditions</li>
+            <li><strong>Weather Predictions using Machine Learning (Python)</strong><br>
+            - Used the Pandas library in Python to analyze and predict weather patterns<br>
+            - Implemented machine learning algorithms to predict future weather conditions</li>
+
+            <li><strong>DianaBear Typing Game (C)</strong><br>
+            - Timer & WPM (Words Per Minute) calculation<br>
+            - Copy and paste lyrics or notes into the app to practice typing<br>
+            - Created the app to help me study my notes</li>
         </ul>
 
-        <h3>DianaBear Typing Game (C)</h3>
+        <h3>Professional Experience:</h3>
         <ul>
-            <li>Timer & WPM (Words Per Minute) Calculation</li>
-            <li>Copy and Paste lyrics or notes into app to practice typing</li>
-            <li>I created the app to help study my notes</li>
+            <li><strong>Finance Specialist</strong> at A&H Auto Sales, Greenville, SC (Winter 2019)</li>
+            <li><strong>Financial Assistant</strong> at SB Trucking (Winter 2020 - Winter 2025)</li>
+            <li><strong>IT Site Support</strong> at Vertiv, Anderson, SC (Summer 2025)</li>
         </ul>
 
-        <h2>Professional Experience</h2>
+        <h3>Skills:</h3>
         <ul>
-            <li><strong>Finance Specialist at A&H Auto Sales, Greenville, SC</strong> – Winter 2019</li>
-            <li><strong>Financial Assistant at SB Trucking</strong> – Winter 2020 – Winter 2025</li>
-            <li><strong>IT Site Support at Vertiv Anderson, SC</strong> – Summer 2025</li>
+            <li>Proficient in <strong>C</strong></li>
+            <li>Microsoft <strong>Access</strong></li>
+            <li>Proficient in <strong>C++</strong></li>
+            <li>Introductory <strong>Python</strong></li>
+            <li><strong>Linux</strong></li>
+            <li>Introductory <strong>Java</strong></li>
+            <li><strong>Microsoft Office Specialist (MOS)</strong></li>
+            <li><strong>Postman API Fundamentals Student Expert</strong></li>
+            <li><strong>SkillsUp JavaScript Certification</strong></li>
         </ul>
 
-        <h2>Skills</h2>
+        <h3>Relevant Courses:</h3>
         <ul>
-            <li>Proficient in C</li>
-            <li>Microsoft Access</li>
-            <li>Proficient in C++</li>
-            <li>Intro Level Python</li>
-            <li>Linux</li>
-            <li>Intro Level Java</li>
-            <li>Microsoft Office Specialist (MOS)</li>
-            <li>Postman API Fundamentals Student Expert</li>
-            <li>SkillsUp JavaScript Certification</li>
-        </ul>
-
-        <h2>Relevant Courses</h2>
-        <ul>
-            <li>Web Site Design</li>
+            <li>Website Design</li>
             <li>Intro to Programming Logic</li>
             <li>C Programming</li>
             <li>Microcomputer Applications</li>
@@ -254,21 +218,19 @@ permalink: /careerOverview
             <li>Human Centered Artificial Intelligence</li>
             <li>Applied Data Science</li>
             <li>Introduction to Software Engineering</li>
-            <li>ST: Emb Systems</li>
+            <li>ST: Embedded Systems</li>
             <li>Creative Inquiry: Hands-on Quantum Computing</li>
             <li>Creative Inquiry: Privacy Compliance in Software Development</li>
         </ul>
 
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing">Link to My Updated Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/dianabear/">Link to My LinkedIn Profile</a></li>
-        </ul>
+        <h3>My Resume:</h3>
+        <a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing" target="_blank">Link to my updated resume</a>
+
+        <h3>My LinkedIn Profile:</h3>
+        <a href="https://www.linkedin.com/in/dianabear/" target="_blank">Link to my LinkedIn profile</a>
+
+        <p>(My LinkedIn profile and resume are updated at the end of each semester to reflect my latest coursework, projects, and achievements.)</p>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2025 DianaBear | Clemson Proud 🐅</p>
-    </footer>
 </body>
 </html>
