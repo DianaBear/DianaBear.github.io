@@ -1,11 +1,13 @@
-<html lang="en">
+---
+layout: default
+---
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Barakat | Clemson Computer Science</title>
     <style>
-        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -15,13 +17,12 @@
             text-align: center;
         }
 
-        /* Navbar */
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #F66733; /* Clemson Orange */
+            background: #F66733;
             color: white;
         }
 
@@ -47,7 +48,6 @@
             text-decoration: underline;
         }
 
-        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #F66733, #522D80);
             color: white;
@@ -75,20 +75,16 @@
         }
 
         .cta:hover {
-            background: #FFC107; /* Gold highlight effect */
+            background: #FFC107;
             color: #333;
         }
 
-        /* Sections */
-        .about,
-        .projects,
-        .contact {
+        .about, .projects, .contact {
             padding: 60px 20px;
             max-width: 800px;
             margin: auto;
         }
 
-        /* Projects */
         .project-container {
             display: flex;
             justify-content: center;
@@ -111,7 +107,6 @@
             transition: 0.3s;
         }
 
-        /* Contact */
         .contact-btn {
             display: inline-block;
             padding: 12px 24px;
@@ -126,44 +121,29 @@
             background: #F66733;
         }
 
-        /* Footer */
         .footer {
             background: #333;
             color: white;
             padding: 10px;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.nav-links li a').forEach(link => {
-                link.addEventListener('mouseover', () => {
-                    link.style.textDecoration = 'underline';
-                });
-
-                link.addEventListener('mouseout', () => {
-                    link.style.textDecoration = 'none';
-                });
-            });
-        });
-    </script>
 </head>
-
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <p>&copy; 👩🏻‍💻 Diana Barakat</p>
-        <nav class="nav-links">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/projects">Projects</a>
-            <a href="/resume">Resume</a>
-        </nav>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/resume">Resume</a></li>
+        </ul>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My World!</h1>
-        <p>Computer Science Student | Clemson Tiger | Intern @ Vertiv</p>
+        <p>Computer Science Enthusiast | Clemson Tiger | Tech Explorer</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -200,13 +180,12 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>Let's connect! Reach out via email or find me on GitHub.</p>
-        <a href="mailto:dbaraka@clemson.edu" class="contact-btn">Email Me</a>
+        <a href="mailto:diana@example.com" class="contact-btn">Email Me</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Diana Barakat | Clemson University</p>
+        <p>&copy; 2025 DianaBear | Clemson University</p>
     </footer>
 </body>
-
 </html>
