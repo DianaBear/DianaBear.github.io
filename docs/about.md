@@ -80,3 +80,103 @@ Relevant Links:
     </footer>
 </body>
 </html>
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F3F2;
+    color: #333;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #F66733; /* Clemson Orange */
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #F66733, #522D80); /* Clemson Theme */
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #F66733;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Sections */
+.about, .projects, .contact {
+    padding: 60px 20px;
+}
+
+.project-card {
+    background: #FFF;
+    padding: 15px;
+    border: 2px solid #F66733;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Contact */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #522D80;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+document.querySelectorAll('.nav-links li a').forEach(link => {
+    link.addEventListener('mouseover', () => {
+        link.style.textDecoration = 'underline';
+    });
+
+    link.addEventListener('mouseout', () => {
+        link.style.textDecoration = 'none';
+    });
+});
