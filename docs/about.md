@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Barakat | Clemson Computer Science</title>
     <style>
-        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -21,7 +20,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #F66733; /* Clemson Orange */
+            background: #F66733;
             color: white;
         }
 
@@ -75,7 +74,7 @@
         }
 
         .cta:hover {
-            background: #FFC107; /* Gold highlight effect */
+            background: #FFC107;
             color: #333;
         }
 
@@ -94,7 +93,6 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
@@ -105,13 +103,11 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero">
         <h1>About Me</h1>
         <p>Learn more about my academic journey and career goals.</p>
     </header>
 
-    <!-- About Me Section -->
     <section class="section">
         <h2>About Diana Barakat</h2>
         <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial intelligence, machine learning, and privacy compliance in software development. These interests reflect my passion for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of technology.</p>
@@ -128,7 +124,6 @@
         </ul>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 DianaBear</p>
     </footer>
