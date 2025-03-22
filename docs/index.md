@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -77,8 +77,56 @@
         }
 
         .cta:hover {
-            background:rgb(168, 7, 255); /* Gold highlight effect */
+            background: rgb(168, 7, 255); 
             color: #333;
+        }
+
+        /* About Me Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px;
+            background-color: #e9e9e9;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            background-color: #D6B3E1;
+            text-align: center;
+            color: white;
         }
     </style>
 </head>
@@ -100,9 +148,6 @@
         <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
-</body>
-</html>
-
 
     <!-- About Me Section -->
     <section class="about">
@@ -111,7 +156,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>My Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -150,6 +195,6 @@
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
     </footer>
+
 </body>
 </html>
-
