@@ -1,77 +1,3 @@
-<!-- # **Career Overview**
-Clemson University, Clemson, SC                                               	        August 2023 – Present
-B.S. Computer Information Systems
-Minor in Cybersecurity
-
-Tri-County Technical College, Pendleton, SC                                             August 2021 – June 2022
-University Studies Certificate                                                                December 13, 2022
-
-Undergraduate Research:
-- Privacy Compliance in Software Development (Fall 2024)
-- Quantum Computing (Spring 2025)
-- TBD
-
-Personal Projects: Weather Predictions using Machine Learning (python)
-- Utilized Python library Pandas to analyze and predict weather patterns
-- Implemented machine learning algorithms to predict future weather conditions
-
-Personal Projects: DianaBear Typing Game (C)
-- Timer & WPM (Words Per Minute) Calculation
-- Copy and Paste lyrics or notes into app to practice typing
--I created the app to help study my notes
-
-Professional Experience:
-- Finance Specialist at A&H Auto Sales, Greenville, SC (Winter 2019)
-- Financial Assistant at SB Trucking (Winter 2020 - Winter 2025)
-- IT Site Support at Vertiv Anderson, SC (Summer 2025)
-
-
-Skills:
-- Proficient in C
-- Microsoft Access
-- Proficient in C++
-- Intro Level Python
-- Linux
-- Intro Level Java
-- Microsoft Office Specialist (MOS)
--Postman API Fundamentals Student Expert
--SkillsUp Javascript Certification
-
-
-Relevant Courses:
-- Web Site Design
-- Intro to Programming Logic
-- C Programming
-- Microcomputer Applications
-- Algorithms and Data Structures
-- Computer Science II
-- Discrete Structures for Computing
-- Computer Ethics and Society
-- Problem Solving with Office Apps
-- Software Development Foundations
-- Computer Organization
-- Human Centered Artificial Intelligence
-- Applied Data Science
-- Introduction to Software Engineering
-- ST: Emb Systems
-- Creative Inquiry: Hands-on Quantum Computing
-- Creative Inquiry: Privacy Compliance in Software Development
-
-My Resume
-Link to my updated resume:
-https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing
-
-Link to my LinkedIn profile:
-https://www.linkedin.com/in/dianabear/
-
-
-My LinkedIn profile and resume are updated at the end of each semester to reflect my latest coursework, projects,
-and achievements.
-
-Menu
-- [About Me](about.md)
-- [Public Resume and LinkedIn](Resume.md)
-- [Home](index.md) -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -232,5 +158,146 @@ Menu
         <p>(My LinkedIn profile and resume are updated at the end of each semester to reflect my latest coursework, projects, and achievements.)</p>
     </section>
 
+</body>
+</html> -->
+---
+permalink: /CareerOverview/
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Overview | Diana Barakat</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F2F3F2;
+            color: #333;
+        }
+
+        /* Header */
+        .header {
+            background: #D6B3E1; /* Lilac Purple */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+        }
+
+        /* Content Section */
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #D6B3E1;
+        }
+
+        ul {
+            text-align: left;
+        }
+
+        a {
+            color: #F66733;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Career Overview</h1>
+    </header>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>Education</h2>
+        <p><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)<br>
+        B.S. Computer Information Systems, Minor in Cybersecurity</p>
+        
+        <p><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)<br>
+        University Studies Certificate (December 13, 2022)</p>
+
+        <h2>Undergraduate Research</h2>
+        <ul>
+            <li>Privacy Compliance in Software Development (Fall 2024)</li>
+            <li>Quantum Computing (Spring 2025)</li>
+            <li>TBD</li>
+        </ul>
+
+        <h2>Personal Projects</h2>
+        <ul>
+            <li><strong>Weather Predictions using Machine Learning (Python)</strong>
+                <ul>
+                    <li>Used Pandas library to analyze and predict weather patterns</li>
+                    <li>Implemented machine learning algorithms for predictions</li>
+                </ul>
+            </li>
+            <li><strong>DianaBear Typing Game (C)</strong>
+                <ul>
+                    <li>Timer & WPM (Words Per Minute) calculation</li>
+                    <li>Copy and paste lyrics or notes into app to practice typing</li>
+                    <li>Designed the app to improve study efficiency</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>Finance Specialist at A&H Auto Sales, Greenville, SC (Winter 2019)</li>
+            <li>Financial Assistant at SB Trucking (Winter 2020 - Winter 2025)</li>
+            <li>IT Site Support at Vertiv, Anderson, SC (Summer 2025)</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficient in C, C++</li>
+            <li>Intro Level Python, Java</li>
+            <li>Linux, Microsoft Access</li>
+            <li>Microsoft Office Specialist (MOS)</li>
+            <li>Postman API Fundamentals Student Expert</li>
+            <li>SkillsUp JavaScript Certification</li>
+        </ul>
+
+        <h2>Relevant Courses</h2>
+        <ul>
+            <li>Website Design</li>
+            <li>Intro to Programming Logic</li>
+            <li>C Programming</li>
+            <li>Microcomputer Applications</li>
+            <li>Algorithms and Data Structures</li>
+            <li>Computer Science II</li>
+            <li>Discrete Structures for Computing</li>
+            <li>Computer Ethics and Society</li>
+            <li>Problem Solving with Office Apps</li>
+            <li>Software Development Foundations</li>
+            <li>Computer Organization</li>
+            <li>Human Centered Artificial Intelligence</li>
+            <li>Applied Data Science</li>
+            <li>Introduction to Software Engineering</li>
+            <li>ST: Embedded Systems</li>
+            <li>Creative Inquiry: Hands-on Quantum Computing</li>
+            <li>Creative Inquiry: Privacy Compliance in Software Development</li>
+        </ul>
+
+        <h2>My Resume</h2>
+        <p><a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing" target="_blank">View My Resume</a></p>
+
+        <h2>My LinkedIn Profile</h2>
+        <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
+    </section>
 </body>
 </html>

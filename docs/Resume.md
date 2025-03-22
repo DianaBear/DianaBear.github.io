@@ -1,120 +1,104 @@
 ---
-permalink: /resume
+permalink: /resume/
+layout: default
 ---
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume | Diana Barakat</title>
     <style>
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #F2F3F2;
             color: #333;
-            text-align: center;
         }
 
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
+        /* Header */
+        .header {
             background: #F66733; /* Clemson Orange */
             color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid #522D80; /* Clemson Purple */
         }
 
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            padding: 0;
+        /* Content Section */
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
         }
 
-        .nav-links li {
-            display: inline;
+        h2 {
+            color: #F66733;
         }
 
-        .nav-links li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 10px;
+        ul {
+            text-align: left;
         }
 
-        .nav-links li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, #F66733, #522D80);
-            color: white;
-            padding: 80px 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-        }
-
-        .cta {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
+        a {
             color: #F66733;
             font-weight: bold;
             text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            transition: 0.3s;
         }
 
-        .cta:hover {
-            background: #FFC107; /* Gold highlight effect */
-            color: #333;
-        }
-
-        .section {
-            padding: 60px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-
-        /* Footer */
-        .footer {
-            background: #333;
-            color: white;
-            padding: 10px;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-            <li><a href="Resume.md">Resume</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
+    <!-- Header -->
+    <header class="header">
         <h1>Resume</h1>
         <p>Here’s an overview of my academic achievements and experience.</p>
     </header>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2025 DianaBear</p>
-    </footer>
+    <!-- Content Section -->
+    <section class="content">
+        <h2>Education</h2>
+        <p><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)<br>
+        B.S. Computer Information Systems, Minor in Cybersecurity</p>
+        
+        <p><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)<br>
+        University Studies Certificate (December 13, 2022)</p>
+
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>Finance Specialist at A&H Auto Sales, Greenville, SC (Winter 2019)</li>
+            <li>Financial Assistant at SB Trucking (Winter 2020 - Winter 2025)</li>
+            <li>IT Site Support at Vertiv, Anderson, SC (Summer 2025)</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficient in C, C++</li>
+            <li>Intro Level Python, Java</li>
+            <li>Linux, Microsoft Access</li>
+            <li>Microsoft Office Specialist (MOS)</li>
+            <li>Postman API Fundamentals Student Expert</li>
+            <li>SkillsUp JavaScript Certification</li>
+        </ul>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>Microsoft Office Specialist (MOS)</li>
+            <li>Postman API Fundamentals Student Expert</li>
+            <li>SkillsUp JavaScript Certification</li>
+        </ul>
+
+        <h2>My Resume</h2>
+        <p><a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing" target="_blank">View My Resume</a></p>
+
+        <h2>My LinkedIn Profile</h2>
+        <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
+    </section>
 </body>
 </html>
