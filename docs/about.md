@@ -164,7 +164,7 @@
     </section>
 
 
-
+<!-- 
         <h2>Contact Me</h2>
         <p>Feel free to connect with me via the following:</p>
         <ul>
@@ -176,7 +176,7 @@
 
     <footer class="footer">
         <p>&copy; 2025 DianaBear</p>
-    </footer>
+    </footer> -->
 
 </body>
 </html>
