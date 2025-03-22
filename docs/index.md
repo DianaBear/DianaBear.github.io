@@ -192,6 +192,12 @@
         </div>
     </section>
 
+
+    - [About](about.md)
+    - [Career Overview](CareerOverview.md)
+    - [Resume](Resume.md)
+
+
     <!-- Footer -->
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
