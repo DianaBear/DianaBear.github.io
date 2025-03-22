@@ -1,5 +1,11 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Barakat | Clemson Computer Science</title>
     <style>
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -92,10 +98,10 @@
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-            <li><a href="Resume.md">Resume</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="CareerOverview.html">Career Overview</a></li>
+            <li><a href="Resume.html">Resume</a></li>
         </ul>
     </nav>
 
