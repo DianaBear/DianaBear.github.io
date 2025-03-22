@@ -1,6 +1,9 @@
 ---
-permalink: /index
+permalink: /
+layout: default
 ---
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +25,8 @@ permalink: /index
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #F66733; /* Clemson Orange */
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             color: white;
         }
 
@@ -50,9 +54,11 @@ permalink: /index
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #F66733, #522D80);
+            background: #D6B3E1; /* Lilac Purple */
             color: white;
             padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            text-align: center;
         }
 
         .hero h1 {
@@ -76,66 +82,8 @@ permalink: /index
         }
 
         .cta:hover {
-            background: #FFC107; /* Gold highlight effect */
+            background:rgb(168, 7, 255); /* Gold highlight effect */
             color: #333;
-        }
-
-        /* Sections */
-        .about, .projects, .contact {
-            padding: 60px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* Projects */
-        .project-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .project-card {
-            background: #FFF;
-            padding: 20px;
-            border: 3px solid #F66733;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-            width: 40%;
-            min-width: 250px;
-        }
-
-        .project-card:hover {
-            transform: scale(1.05);
-            transition: 0.3s;
-        }
-
-        /* Contact */
-        .contact-btn {
-            display: inline-block;
-            padding: 12px 24px;
-            background: #522D80;
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-
-        .contact-btn:hover {
-            background: #F66733;
-        }
-
-        /* Footer */
-        .footer {
-            background: #333;
-            color: white;
-            padding: 10px;
-        }
-
-        /* Contact Info */
-        .contact-info {
-            text-align: left;
-            margin-top: 20px;
         }
     </style>
 </head>
@@ -144,10 +92,10 @@ permalink: /index
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-            <li><a href="Resume.md">Resume</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Me</a></li>
+            <li><a href="/CareerOverview/">Career Overview</a></li>
+            <li><a href="/Resume/">Resume</a></li>
         </ul>
     </nav>
 
@@ -157,11 +105,14 @@ permalink: /index
         <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
+</body>
+</html>
+
 
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a passionate computer science student at Clemson University. I love exploring APIs, microservices, and all things tech. Let’s build something amazing!</p>
+        <p>Hey there! I'm Diana, a computer science student at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
     </section>
 
     <!-- Projects Section -->
@@ -178,11 +129,11 @@ permalink: /index
             </div>
             <div class="project-card">
                 <h3>Weather Predictor (Python)</h3>
-                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms. Built using the Pandas library in Python.</p>
+                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms. Built using the Pandas library in Python.[Personal Project]</p>
             </div>
             <div class="project-card">
                 <h3>DianaBear Typing Game (C)</h3>
-                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics. Built in C with a timer and WPM calculation.</p>
+                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics. Built in C with a timer and WPM calculation.[Personal Project]</p>
             </div>
         </div>
     </section>
@@ -202,7 +153,8 @@ permalink: /index
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear | Clemson University</p>
+        <p> Last updated 2025 by DianaBear | Clemson University</p>
     </footer>
 </body>
 </html>
+
