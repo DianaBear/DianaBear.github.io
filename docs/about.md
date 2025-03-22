@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Barakat | Clemson Computer Science</title>
     <style>
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #F2F3F2;
             color: #333;
-            text-align: center;
         }
 
         /* Navbar */
@@ -20,7 +20,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #F66733;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             color: white;
         }
 
@@ -48,9 +49,11 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #F66733, #522D80);
+            background: #D6B3E1; /* Lilac Purple */
             color: white;
             padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            text-align: center;
         }
 
         .hero h1 {
@@ -74,46 +77,93 @@
         }
 
         .cta:hover {
-            background: #FFC107;
+            background: rgb(168, 7, 255); 
             color: #333;
         }
 
-        .section {
-            padding: 60px 20px;
-            max-width: 900px;
-            margin: auto;
+        /* About Me Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px;
+            background-color: #e9e9e9;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
         }
 
         /* Footer */
         .footer {
-            background: #333;
+            padding: 20px;
+            background-color: #D6B3E1;
+            text-align: center;
             color: white;
-            padding: 10px;
         }
     </style>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="CareerOverview.html">Career Overview</a></li>
-            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About Me</a></li>
+            <li><a href="CareerOverview.md">Career Overview</a></li>
+            <li><a href="Resume.md">Resume</a></li>
         </ul>
     </nav>
 
+
+    <!-- Hero Section -->
     <header class="hero">
-        <h1>About Me</h1>
-        <p>Learn more about my academic journey and career goals.</p>
+        <h1>About Me!</h1>
+        <p>Learn more about my academic journey and career goals</p>
+        <a href="#projects" class="cta">View My Work</a>
     </header>
 
-    <section class="section">
-        <h2>About Diana Barakat</h2>
+    <!-- About Me Section -->
+    <section class="about">
+        <h2>About Me</h2>
         <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial intelligence, machine learning, and privacy compliance in software development. These interests reflect my passion for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of technology.</p>
+    </section>
 
+
+
+    <section class="about">
         <h2>My goals as a student</h2>
-        <p>My goal is to become a Cybersecurity Analyst, where I can apply my skills to protect systems and safeguard data in an increasingly digital world. While I have a clear end goal, I am also taking the time to explore different areas of computer science to discover what excites me most. Whether it’s diving deeper into AI, studying cybersecurity threats, or experimenting with software development, I believe this exploration will help me grow both personally and professionally. I am driven by a desire to learn, adapt, and contribute meaningfully to the ever-evolving tech landscape.</p>
+        <p>y goal is to become a Cybersecurity Analyst, where I can apply my skills to protect systems and safeguard data in an increasingly digital world. While I have a clear end goal, I am also taking the time to explore different areas of computer science to discover what excites me most. Whether it’s diving deeper into AI, studying cybersecurity threats, or experimenting with software development, I believe this exploration will help me grow both personally and professionally. I am driven by a desire to learn, adapt, and contribute meaningfully to the ever-evolving tech landscape.</p>
+    </section>
+
+
 
         <h2>Contact Me</h2>
         <p>Feel free to connect with me via the following:</p>
@@ -127,5 +177,6 @@
     <footer class="footer">
         <p>&copy; 2025 DianaBear</p>
     </footer>
+
 </body>
 </html>
