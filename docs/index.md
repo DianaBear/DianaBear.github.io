@@ -135,12 +135,13 @@
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About Me</a></li>
-            <li><a href="/CareerOverview/">Career Overview</a></li>
-            <li><a href="/Resume/">Resume</a></li>
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About Me</a></li>
+            <li><a href="CareerOverview.md">Career Overview</a></li>
+            <li><a href="Resume.md">Resume</a></li>
         </ul>
     </nav>
+
 
     <!-- Hero Section -->
     <header class="hero">
@@ -152,7 +153,7 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a computer science student at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
+        <p>Hey there! I'm Diana, a Computer Information System major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
     </section>
 
     <!-- Projects Section -->
