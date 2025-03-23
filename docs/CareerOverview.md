@@ -1,9 +1,3 @@
----
-layout: none
-title: Career Overview
-permalink: /career/
----
-
 <!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
