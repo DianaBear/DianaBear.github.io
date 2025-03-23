@@ -376,7 +376,7 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
+    Navbar
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
@@ -415,7 +415,7 @@
             <li>Cybersecurity: Vulnerability Scanning, Encryption</li>
         </ul>
     </section>
-
+<!-- 
     <!-- Projects Section -->
     <section class="projects" id="projects">
         <h2>My Projects</h2>
@@ -450,7 +450,7 @@
                 <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
             </ul>
         </div>
-    </section> -->
+    </section> --> -->
 
     <!-- Footer -->
     <footer class="footer">
