@@ -192,7 +192,7 @@
         <div class="footer-links">
             <a href="index.html">Home</a> | 
             <a href="about.html">About</a> | 
-            <a href="careerOverview.html">Career</a> |
+            <a href="resume.html">Resume</a> |
         </div>
     </footer>
 </body>
