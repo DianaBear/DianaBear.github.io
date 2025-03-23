@@ -192,11 +192,6 @@
         </div>
     </section>
 
-## Menu
-[About](about.md)
-[Career Overview](CareerOverview.md)
-[Resume](Resume.md)
-
 
     <!-- Footer -->
     <footer class="footer">

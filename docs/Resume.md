@@ -1,4 +1,18 @@
- <style>
+---
+layout: none
+title: Resume
+permalink: /resume/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    <!-- CSS Styles -->
+    <style>
         /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
@@ -44,6 +58,7 @@
     </style>
 </head>
 <body>
+
     <!-- Header -->
     <header class="header">
         <h1>Resume</h1>
@@ -89,5 +104,6 @@
         <h2>My LinkedIn Profile</h2>
         <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
     </section>
+
 </body>
 </html>
