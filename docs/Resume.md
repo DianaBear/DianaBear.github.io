@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Clemson Computer Science</title>
+    <title>My Portfolio</title>
     <style>
         /* Global Styles */
         body {
@@ -106,6 +105,49 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
+        /* Resume Section */
+        .resume {
+            padding: 40px;
+            background-color: #e9e9e9;
+        }
+
+        .resume h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .resume p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .resume ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume ul li {
+            margin-bottom: 15px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #F66733;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .download-btn:hover {
+            background: rgb(168, 7, 255); 
+            color: #333;
+        }
+
         /* Contact Section */
         .contact {
             padding: 40px;
@@ -135,13 +177,12 @@
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
         <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-            <li><a href="Resume.md">Resume</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="CareerOverview.html">Career Overview</a></li>
+            <li><a href="Resume.html">Resume</a></li>
         </ul>
     </nav>
-
 
     <!-- Hero Section -->
     <header class="hero">
@@ -150,33 +191,58 @@
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
-    <!-- About Me Section -->
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a Computer Information System major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
-    </section>
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <h2>My Resume</h2>
+        <p><strong>Diana Barakat</strong><br>
+        Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a> | Phone: <a href="mailto:dbaraka@clemson.edu">Email for details</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></p>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <h3>TigerChow API</h3>
-                <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
-            </div>
-            <div class="project-card">
-                <h3>Image Stacking in C</h3>
-                <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
-            </div>
-            <div class="project-card">
-                <h3>Weather Predictor (Python)</h3>
-                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms. Built using the Pandas library in Python.[Personal Project]</p>
-            </div>
-            <div class="project-card">
-                <h3>DianaBear Typing Game (C)</h3>
-                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics. Built in C with a timer and WPM calculation.[Personal Project]</p>
-            </div>
-        </div>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)<br>
+            B.S. Computer Information Systems | Minor in Cybersecurity</li>
+            <li><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)<br>
+            University Studies Certificate | December 13, 2022</li>
+        </ul>
+
+        <h3>Coursework & Projects</h3>
+        <p><strong>Relevant Coursework:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, and Computer Organization.</p>
+        <p><strong>Projects Built in C++:</strong> Linked List Based Stacks and Queues, Infix to Postfix Conversion, Finding Groups Using Recursion, Searching and Sorting, Spell Checker Using a Hash Table, Finding the Closest Pair of Points.</p>
+        <p><strong>Personal Projects:</strong> Weather Predictions using Machine Learning (Python)</p>
+
+        <h3>Professional Experience</h3>
+        <ul>
+            <li><strong>Finance Specialist</strong> at A&H Auto Sales, Greenville, SC
+                <ul>
+                    <li>Maintained accurate financial records for accounts payable/receivable.</li>
+                    <li>Assisted with budgeting and financial reporting tasks to support decision-making.</li>
+                    <li>Implemented streamlined processes to improve efficiency in financial record-keeping.</li>
+                </ul>
+            </li>
+            <li><strong>Financial Assistant</strong> at SB Trucking
+                <ul>
+                    <li>Supported preparation of 1099 tax submissions.</li>
+                    <li>Built semi-automated accounting expense balancing tool.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Proficient in C, C++</li>
+            <li>Intro Level Python, JavaScript</li>
+            <li>Microsoft Office Specialist (MOS)</li>
+            <li>Linux, Microsoft Access</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ul>
+            <li>English, Arabic, Spanish</li>
+        </ul>
+
+        <!-- Download Resume Button -->
+        <a href="Diana_Barakat_Resume.pdf" class="download-btn" download>Download Resume</a>
     </section>
 
     <!-- Contact Section -->
@@ -192,17 +258,9 @@
         </div>
     </section>
 
-
-<!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
-        <div class="footer-links">
-            <a href="index.html">Home</a> | 
-            <a href="about.html">About</a> | 
-            <a href="CareerOverview.html">Career</a> |
-        </div>
     </footer>
-</body>
-
 </body>
 </html>
