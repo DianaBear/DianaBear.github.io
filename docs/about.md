@@ -131,16 +131,7 @@
     </style>
 </head>
 <body>
-    Navbar
-    <nav class="navbar">
-        <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <ul class="nav-links">
-            <li><a href="index.md">Home</a></li>
-            <li><a href="about.md">About Me</a></li>
-            <li><a href="CareerOverview.md">Career Overview</a></li>
-            <li><a href="Resume.md">Resume</a></li>
-        </ul>
-    </nav>
+
 
     <!-- Hero Section -->
     <header class="hero">
