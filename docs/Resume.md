@@ -1,18 +1,9 @@
-
----
-layout: none
-title: Resume
-permalink: /resume/
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-
-    <!-- CSS Styles -->
+    <title>Diana Barakat | Clemson Computer Science</title>
     <style>
         /* Global Styles */
         body {
@@ -23,88 +14,189 @@ permalink: /resume/
             color: #333;
         }
 
-        /* Header */
-        .header {
-            background: #F66733; /* Clemson Orange */
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             color: white;
-            padding: 60px 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #D6B3E1; /* Lilac Purple */
+            color: white;
+            padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             text-align: center;
-            border-bottom: 5px solid #522D80; /* Clemson Purple */
         }
 
-        /* Content Section */
-        .content {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
+        .hero h1 {
+            font-size: 3rem;
         }
 
-        h2 {
-            color: #F66733;
+        .hero p {
+            font-size: 1.3rem;
         }
 
-        ul {
-            text-align: left;
-        }
-
-        a {
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
             color: #F66733;
             font-weight: bold;
             text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: 0.3s;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .cta:hover {
+            background: rgb(168, 7, 255); 
+            color: #333;
+        }
+
+        /* About Me Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px;
+            background-color: #e9e9e9;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            background-color: #D6B3E1;
+            text-align: center;
+            color: white;
         }
     </style>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">👩🏻‍💻 Diana Barakat</div>
+        <ul class="nav-links">
+            <li><a href="index.md">Home</a></li>
+            <li><a href="about.md">About Me</a></li>
+            <li><a href="CareerOverview.md">Career Overview</a></li>
+            <li><a href="Resume.md">Resume</a></li>
+        </ul>
+    </nav>
 
-    <!-- Header -->
-    <header class="header">
-        <h1>Resume</h1>
-        <p>Here’s an overview of my academic achievements and experience.</p>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to My World!</h1>
+        <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
+        <a href="#projects" class="cta">View My Work</a>
     </header>
 
-    <!-- Content Section -->
-    <section class="content">
-        <h2>Education</h2>
-        <p><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)<br>
-        B.S. Computer Information Systems, Minor in Cybersecurity</p>
-        
-        <p><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)<br>
-        University Studies Certificate (December 13, 2022)</p>
-
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>Finance Specialist at A&H Auto Sales, Greenville, SC (Winter 2019)</li>
-            <li>Financial Assistant at SB Trucking (Winter 2020 - Winter 2025)</li>
-            <li>IT Site Support at Vertiv, Anderson, SC (Summer 2025)</li>
-        </ul>
-
-        <h2>Skills</h2>
-        <ul>
-            <li>Proficient in C, C++</li>
-            <li>Intro Level Python, Java</li>
-            <li>Linux, Microsoft Access</li>
-            <li>Microsoft Office Specialist (MOS)</li>
-            <li>Postman API Fundamentals Student Expert</li>
-            <li>SkillsUp JavaScript Certification</li>
-        </ul>
-
-        <h2>Certifications</h2>
-        <ul>
-            <li>Microsoft Office Specialist (MOS)</li>
-            <li>Postman API Fundamentals Student Expert</li>
-            <li>SkillsUp JavaScript Certification</li>
-        </ul>
-
-        <h2>My Resume</h2>
-        <p><a href="https://docs.google.com/document/d/1A6QZWEtbWgpBSnQmdusWNSqi-bqpmVr77o6TFo4Xgx8/edit?usp=sharing" target="_blank">View My Resume</a></p>
-
-        <h2>My LinkedIn Profile</h2>
-        <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
+    <!-- About Me Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Diana, a Computer Information System major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
     </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>TigerChow API</h3>
+                <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
+            </div>
+            <div class="project-card">
+                <h3>Image Stacking in C</h3>
+                <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
+            </div>
+            <div class="project-card">
+                <h3>Weather Predictor (Python)</h3>
+                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms. Built using the Pandas library in Python.[Personal Project]</p>
+            </div>
+            <div class="project-card">
+                <h3>DianaBear Typing Game (C)</h3>
+                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics. Built in C with a timer and WPM calculation.[Personal Project]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Feel free to connect with me via the following:</p>
+            <ul>
+                <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
+                <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> Last updated 2025 by DianaBear | Clemson University</p>
+    </footer>
 
 </body>
 </html>
