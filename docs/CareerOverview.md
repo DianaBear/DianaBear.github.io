@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Overview | Diana Barakat</title>
+    <title>Career Overview | Diana Barakat</title> -->
     
-    <!-- CSS Styles -->
-    <style>
+ <style>
         /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
@@ -49,38 +48,78 @@
             text-decoration: underline;
         }
 
-        /* Header */
-        .header {
-            background: #F66733; /* Clemson Orange */
+        /* Hero Section */
+        .hero {
+            background: #D6B3E1; /* Lilac Purple */
             color: white;
-            padding: 60px 20px;
+            padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             text-align: center;
-            border-bottom: 5px solid #522D80; /* Clemson Purple */
         }
 
-        /* Content Section */
-        .content {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
+        .hero h1 {
+            font-size: 3rem;
         }
 
-        h2 {
-            color: #F66733;
+        .hero p {
+            font-size: 1.3rem;
         }
 
-        ul {
-            text-align: left;
-        }
-
-        a {
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
             color: #F66733;
             font-weight: bold;
             text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: 0.3s;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .cta:hover {
+            background: rgb(168, 7, 255); 
+            color: #333;
+        }
+
+        /* About Me Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px;
+            background-color: #e9e9e9;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
         }
 
         /* Footer */
@@ -91,9 +130,14 @@
             color: white;
         }
 
+        .footer-links {
+            margin-top: 10px;
+        }
+
         .footer-links a {
             color: white;
             text-decoration: none;
+            font-weight: bold;
             margin: 0 10px;
         }
 
