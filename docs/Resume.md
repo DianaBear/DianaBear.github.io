@@ -107,4 +107,3 @@ permalink: /resume/
 
 </body>
 </html>
- 
