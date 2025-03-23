@@ -206,7 +206,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    Footer
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
@@ -220,7 +220,7 @@
 </body>
 </html> -->
 
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -450,7 +450,7 @@
                 <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer">
