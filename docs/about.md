@@ -171,10 +171,16 @@
         </ul>
     </section>
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 DianaBear</p>
+        <p> Last updated 2025 by DianaBear | Clemson University</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> | 
+            <a href="CareerOverview.html">Career</a> | 
+            <a href="Resume.html">Resume</a> |
+        </div>
     </footer>
+</body>
 
 </body>
 </html>
