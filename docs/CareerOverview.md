@@ -1,10 +1,10 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-
+    <title>Career Overview | Diana Barakat</title>
+    
     <!-- CSS Styles -->
     <style>
         /* Global Styles */
@@ -14,6 +14,39 @@
             padding: 0;
             background-color: #F2F3F2;
             color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            color: white;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
         }
 
         /* Header */
@@ -49,9 +82,38 @@
         a:hover {
             text-decoration: underline;
         }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            background-color: #D6B3E1;
+            text-align: center;
+            color: white;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">👩🏻‍💻 Diana Barakat</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="careerOverview.html">Career Overview</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
 
     <!-- Header -->
     <header class="header">
@@ -83,23 +145,18 @@
         <p>I am passionate about expanding my expertise in software engineering, cybersecurity, and cloud technologies. I aim to contribute to innovative solutions that improve technology accessibility and efficiency.</p>
 
         <h2>Learn More</h2>
-        <p><a href="/resume/">View My Resume</a></p>
+        <p><a href="/resume/" class="cta">View My Resume</a></p>
         <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
     </section>
 
-
-<!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
             <a href="index.html">Home</a> | 
             <a href="about.html">About</a> | 
-            <a href="Resume.html">Resume</a> |
+            <a href="careerOverview.html">Career</a> |
         </div>
     </footer>
-</body>
-
-
-
 </body>
 </html>
