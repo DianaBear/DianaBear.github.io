@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Clemson Computer Science</title>
+    <!-- <title>Diana Barakat | Clemson Computer Science</title> -->
     <style>
         /* Global Styles */
         body {
@@ -149,11 +149,11 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <ul class="nav-links">
+        <!-- <ul class="nav-links">
             <li><a href="about.html">About Me</a></li>
             <li><a href="CareerOverview.html">Career Overview</a></li>
             <li><a href="Resume.html">Resume</a></li>
-        </ul>
+        </ul> -->
     </nav>
 
     <!-- Hero Section -->
