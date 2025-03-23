@@ -144,7 +144,7 @@
             text-decoration: underline;
         }
     </style>
-</head>
+<!-- </head> -->
 <body>
 
     <!-- Navbar -->

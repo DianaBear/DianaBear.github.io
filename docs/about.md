@@ -163,7 +163,6 @@
         </ul>
     </section>
 
-    Footer
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
