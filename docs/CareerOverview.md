@@ -151,13 +151,6 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="careerOverview.html">Career Overview</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
 
     <!-- Header -->
     <header class="header">
