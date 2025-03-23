@@ -173,21 +173,10 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="CareerOverview.html">Career Overview</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-        </ul>
-    </nav>
-
     <!-- Hero Section -->
     <header class="hero">
-        <h1>Welcome to My World!</h1>
-        <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
+        <h1>My Resume</h1>
+        <!-- <p>Computer Science Student | Clemson University | Intern @ Vertiv</p> -->
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -258,9 +247,15 @@
         </div>
     </section>
 
-    <!-- Footer -->
+ Footer
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> | 
+            <a href="CareerOverview.html">Career</a> | 
+        </div>
     </footer>
+    
 </body>
 </html>
