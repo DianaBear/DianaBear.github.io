@@ -230,7 +230,7 @@
             <li>English, Arabic, Spanish</li>
         </ul>
 
-        <!-- Download Resume Button -->
+        Download Resume Button
         <a href="Diana_Barakat_Resume.pdf" class="download-btn" download>Download Resume</a>
     </section>
 

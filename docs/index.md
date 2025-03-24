@@ -167,7 +167,7 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a Computer Information System major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
+        <p>Hey there! I'm Diana, a Computer Information Systems major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
     </section>
 
    

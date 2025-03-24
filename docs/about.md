@@ -144,12 +144,12 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, and I plan to graduate in May 2026. I have a deep fascination with cutting-edge technologies, particularly in the areas of artificial intelligence, machine learning, and privacy compliance in software development. These interests reflect my passion for understanding how advanced algorithms and secure systems shape the modern digital landscape. By pursuing both technical and security-focused coursework, I am building a broad skill set to thrive in the ever-evolving world of technology.</p>
+        <p>I'm a Computer Information Systems major with a Cybersecurity minor at Clemson University, set to graduate in May 2026. I'm particularly interested in emerging technologies like artificial intelligence, machine learning, and privacy compliance in software development. I enjoy exploring how advanced algorithms and secure systems influence the digital world. Through a mix of technical and security-focused coursework, I'm developing a well-rounded skill set to navigate the fast-paced tech industry.</p>
     </section>
 
     <section class="about">
         <h2>My goals as a student</h2>
-        <p>My goal is to become a Cybersecurity Analyst, where I can apply my skills to protect systems and safeguard data in an increasingly digital world. While I have a clear end goal, I am also taking the time to explore different areas of computer science to discover what excites me most. Whether it’s diving deeper into AI, studying cybersecurity threats, or experimenting with software development, I believe this exploration will help me grow both personally and professionally. I am driven by a desire to learn, adapt, and contribute meaningfully to the ever-evolving tech landscape.</p>
+        <p>My goal is to become a Cybersecurity Analyst, using my skills to protect systems and secure data in an increasingly digital world. While that’s my main focus, I’m also exploring different areas of computer science to find what excites me most. Whether it’s diving into AI, analyzing cybersecurity threats, or experimenting with software development, I see this exploration as a way to grow both personally and professionally. I’m driven by a passion for learning, adapting, and making a meaningful impact in the ever-changing tech industry.</p>
     </section>
 
     <!-- Contact Section -->

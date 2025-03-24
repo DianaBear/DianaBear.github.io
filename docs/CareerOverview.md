@@ -1,10 +1,11 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Overview | Diana Barakat</title> -->
+    <title>Career Overview | Diana Barakat</title>
     
- <style>
+    <style>
         /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
@@ -150,6 +151,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">👩🏻‍💻 Diana Barakat</div>
+    </nav>
 
     <!-- Header -->
     <header class="header">
@@ -191,8 +193,9 @@
         <div class="footer-links">
             <a href="index.html">Home</a> | 
             <a href="about.html">About</a> | 
-            <a href="resume.html">Resume</a> |
+            <a href="resume.html">Resume</a>
         </div>
     </footer>
+
 </body>
-<!-- </html> -->
+</html>
