@@ -134,6 +134,33 @@
 
         <!-- Add more project sections as needed -->
 
+        <h2>Personal Website (Jekyll + GitHub Pages)</h2>
+        <p>This is my personal website built using Jekyll and hosted on GitHub Pages. This website is the final version of my project!</p>
+
+        <h2>Microservices Project: Spotify API (API Development)</h2>
+        <p>This project involves integrating with the Spotify API to retrieve and display information. This API creates a personalized playlist, adds prespecified songs to playlist, and retrieves user data. Below are some screenshots of the API specification and the data retrieved from the API:</p>
+        <img src="CodeSnippets/code example api spot.png" alt="Microservices API Screensho1">
+        <img src="CodeSnippets/GetsPostStructure.png" alt="Microservices API Screenshot2">
+        <img src="CodeSnippets/SuccessfullyCreatedPlaylist.png" alt="Microservices API Screenshot3">
+
+
+        <h2>TigerChow Postman API</h2>
+        <p>This project involves creating and testing the API specifications for the TigerChow application using Postman. The goal is to define, test, and document the API endpoints to ensure seamless integration between the backend and frontend of the application. Below is a screenshot of the API specifications and test results in Postman:</p>
+        <img src="CodeSnippets/tigerchowaccts.png" alt="Postman Collections Screenshot">
+        <img src="CodeSnippets/tigerchownotifs.png" alt="Postman Collections Screenshot">
+
+        <h2>Typing Game (Python)</h2>
+        <p>This project started as a tool to help me study and review notes through typing practice. The game allows you to paste in custom text, like lecture notes or study material, and it helps you type them accurately and quickly. Over time, the game was enhanced to support typing practice with song lyrics, turning it into a fun and engaging way to practice typing skills while listening to your favorite music. Below is a screenshot of the game:</p>
+        <img src="CodeSnippets/DianaBear typing game.png" alt="Typing Game Code Snippet">
+
+
+        <h2>Stack Implementation with Design Patterns</h2>
+        <p>This project involved implementing a stack data structure with different design patterns (Factory, Singleton, etc.). Below is a screenshot of the code:</p>
+        <img src="CodeSnippets/stack_design_patterns.png" alt="Stack with Design Patterns Code Snippet">
+
+        <h2>SDLC and Agile Methodology Project</h2>
+        <p>This project focuses on the Software Development Life Cycle (SDLC) and Agile methodologies. Below is a screenshot of the Agile Kanban board and project progress:</p>
+        <img src="CodeSnippets/agile_kanban_board.png" alt="Agile Kanban Board Screenshot">
     </section>
 
 <footer class="footer">
