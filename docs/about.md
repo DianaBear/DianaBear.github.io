@@ -166,7 +166,8 @@
     <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
-            <a href="index.html">Home</a> | 
+            <a href="index.html">Home</a> |
+            <a href="project.html">Projects</a> |  
             <a href="CareerOverview.html">Career</a> | 
             <a href="Resume.html">Resume</a> |
         </div>
