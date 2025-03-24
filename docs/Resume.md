@@ -1,6 +1,6 @@
 <!-- Resume Section -->
 <section class="resume" id="resume">
-    <h2>My Resume</h2>
+    <h2>My Resume 👩🏻‍💻</h2>
     <p><strong>Diana Barakat</strong><br>
     Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a> | Phone: <a href="mailto:dbaraka@clemson.edu">Email for details</a><br>
     LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></p>

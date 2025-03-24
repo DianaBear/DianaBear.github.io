@@ -136,7 +136,7 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <h1>About Me!</h1>
+        <h1>About Me! 👩🏻‍💻</h1>
         <p>Learn more about my academic journey and career goals</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>

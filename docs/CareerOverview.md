@@ -155,7 +155,7 @@
 
     <!-- Header -->
     <header class="header">
-        <h1>Career Overview</h1>
+        <h1>Career Overview 👩🏻‍💻</h1>
         <p>A snapshot of my professional journey, skills, and future aspirations.</p>
     </header>
 

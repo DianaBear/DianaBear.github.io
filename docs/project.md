@@ -114,7 +114,7 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <h1>My Projects</h1>
+        <h1>My Projects 👩🏻‍💻</h1>
         <p>Explore some of the projects I've worked on during my studies.</p>
     </header>
 

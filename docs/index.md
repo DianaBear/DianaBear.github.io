@@ -159,7 +159,7 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <h1>Welcome to My Page!</h1>
+        <h1>Welcome to My Page! 👩🏻‍💻</h1>
         <p>Computer Science Student | Clemson University | Incoming Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
