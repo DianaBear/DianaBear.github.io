@@ -1,34 +1,145 @@
-# Projects
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F2F3F2;
+            color: #333;
+        }
 
-## Weather Predictions using Machine Learning (Python)
-- Developed a machine learning model to predict weather patterns.
-- Utilized Python libraries such as Pandas, NumPy, and Scikit-learn.
-- Analyzed historical weather data to train and validate the model.
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            color: white;
+        }
 
-## Projects Built in C++
-### Linked List Based Stacks and Queues
-- Implemented data structures using linked lists.
-- Designed and tested stack and queue operations.
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
 
-### Infix to Postfix Conversion
-- Created an algorithm to convert infix expressions to postfix notation.
-- Applied stack-based techniques for efficient computation.
+        .nav-links li {
+            display: inline;
+        }
 
-### Finding Groups Using Recursion
-- Developed a recursive solution to identify connected groups in a dataset.
-- Optimized the algorithm for performance and accuracy.
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
 
-### Searching and Sorting
-- Implemented various searching and sorting algorithms.
-- Compared the efficiency of algorithms like QuickSort, MergeSort, and Binary Search.
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
 
-### Spell Checker Using a Hash Table
-- Built a spell-checking tool using hash table data structures.
-- Designed the system to handle large datasets efficiently.
+        /* Hero Section */
+        .hero {
+            background: #D6B3E1; /* Lilac Purple */
+            color: white;
+            padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            text-align: center;
+        }
 
-### Finding the Closest Pair of Points
-- Solved the closest pair of points problem using divide-and-conquer techniques.
-- Enhanced the algorithm to achieve optimal time complexity.
+        .hero h1 {
+            font-size: 3rem;
+        }
 
-## Additional Information
-For more details, visit my [GitHub](https://github.com/DianaBear).
+        .hero p {
+            font-size: 1.3rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
+            color: #F66733;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background: rgb(168, 7, 255); 
+            color: #333;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for images (code snippets) */
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>My Projects</h1>
+        <p>Explore some of the projects I've worked on during my studies.</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Checkers Game Project</h2>
+        <p>This project is a checkers game built using [language/framework]. Below is a screenshot of the code:</p>
+        <img src="images/checkers_code.png" alt="Checkers Project Code Snippet">
+
+        <h2>Data Science Project (Python)</h2>
+        <p>This project uses IPEDS data to analyze the number of men and women in computer science nationally and at Clemson University. Below is a screenshot of the code:</p>
+        <img src="images/data_science_code.png" alt="Data Science Project Code Snippet">
+
+        <h2>US vs. France Government Comparison (R)</h2>
+        <p>This project compares the US and French governments using R. Below is a screenshot of the code:</p>
+        <img src="images/us_vs_france_code.png" alt="US vs France Code Snippet">
+
+        <!-- Add more project sections as needed -->
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Last updated 2025 by DianaBear | Clemson University</p>
+    </footer>
+
+</body>
+</html>
