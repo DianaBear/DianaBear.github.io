@@ -126,11 +126,11 @@
 
         <h2>Data Science Project (Python)</h2>
         <p>This project uses IPEDS data to analyze the number of men and women in computer science nationally and at Clemson University. Below is a screenshot of the code:</p>
-        <img src="images/data_science_code.png" alt="Data Science Project Code Snippet">
+        <img src="/Users/dianabarakat/Desktop/DianaBear.github.io/CodeSnippets/womenCPSC code snippet.png" alt="Data Science Project Code Snippet">
 
         <h2>US vs. France Government Comparison (R)</h2>
         <p>This project compares the US and French governments using R. Below is a screenshot of the code:</p>
-        <img src="images/us_vs_france_code.png" alt="US vs France Code Snippet">
+        <img src="/Users/dianabarakat/Desktop/DianaBear.github.io/CodeSnippets/R code snippet.png" alt="US vs France Code Snippet">
 
         <!-- Add more project sections as needed -->
 
