@@ -159,8 +159,8 @@
         <img src="CodeSnippets/stack_design_patterns.png" alt="Stack with Design Patterns Code Snippet">
 
         <h2>SDLC and Agile Methodology Project</h2>
-        <p>This project focuses on the Software Development Life Cycle (SDLC) and Agile methodologies. Below is a screenshot of the Agile Kanban board and project progress:</p>
-        <img src="CodeSnippets/agile_kanban_board.png" alt="Agile Kanban Board Screenshot">
+        <p>During the tigerChow project, we focused on the Software Development Life Cycle (SDLC) and Agile methodologies. My group voted for me to be the Scrum Master, so I was in charge of keeping Trello updated and setting up dates. Below is a screenshot of the Agile Kanban board and project progress:</p>
+        <img src="CodeSnippets/trello.png" alt="Agile Kanban Board Screenshot">
     </section>
 
 <footer class="footer">
@@ -172,9 +172,6 @@
             <a href="Resume.html">Resume</a> |
         </div>
     </footer>
-
-
-
 
 </body>
 </html>
