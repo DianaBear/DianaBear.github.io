@@ -160,7 +160,7 @@
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My Page!</h1>
-        <p>Computer Science Student | Clemson University | Intern @ Vertiv</p>
+        <p>Computer Science Student | Clemson University | Incoming Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -176,7 +176,7 @@
         <h2>Skills & Expertise</h2>
         <p>Here are some of the skills I’ve developed throughout my studies and projects:</p>
         <ul>
-            <li>Programming Languages: C, C++, Python, Java, SQL</li>
+            <li>Programming Languages: C, C++, Python, Java, and R</li>
             <li>Web Development: HTML & JavaScript</li>
             <li>APIs: RESTful APIs, Postman</li>
             <li>Version Control: Git, GitHub</li>

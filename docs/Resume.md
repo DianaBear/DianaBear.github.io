@@ -22,7 +22,7 @@
 
     <h3>Technical Skills</h3>
     <ul>
-        <li>Proficient in C, C++</li>
+        <li>Proficient in C, C++, Python, Java, R</li>
     </ul>
 
     <h3>Languages</h3>

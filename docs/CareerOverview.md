@@ -173,7 +173,7 @@
 
         <h2>Technical Skills</h2>
         <ul>
-            <li>Programming: C, C++, Python, Java</li>
+            <li>Programming: C, C++, Python, Java, and R</li>
             <li>Software Tools: Linux, Microsoft Access, Postman</li>
             <li>Certifications: MOS, Postman API Fundamentals, SkillsUp JavaScript</li>
             <li>Web Development: Jekyll, GitHub Pages</li>
