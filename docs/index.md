@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -182,9 +182,10 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>I'm Diana Barakat, a Computer Information Systems major with a Cybersecurity minor at Clemson University. I’m an undergraduate researcher in Clemson’s Creative Inquiry (CI) program, where I focus on privacy compliance in software development and quantum computing. This summer, I'll be joining Vertiv as an IT Site Support Intern!
+        <p>I'm Diana Barakat, a Computer Information Systems major with a Cybersecurity minor at Clemson University. I’m an undergraduate researcher in Clemson’s Creative Inquiry (CI) program, where I focus on privacy compliance in software development and quantum computing. This summer, I'll be joining Vertiv as an IT Site Support Intern!</p>
 
-        I enjoy learning new programming languages, working with APIs, and  diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
+        <p>I enjoy learning new programming languages, working with APIs, and  diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
+
     </section>
 
     <!-- Skills Section -->
