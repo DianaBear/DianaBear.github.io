@@ -19,12 +19,12 @@
         .resume {
             padding: 40px;
             background-color: #f9f9f9;
-            text-align: center;
         }
 
         .resume h2 {
             font-size: 2.5rem;
             color: #D6B3E1; /* Purple color for the title */
+            text-align: center;
         }
 
         .resume-content {
@@ -61,6 +61,14 @@
             color: #D45F25; /* Darker orange on hover */
             text-decoration: underline;
         }
+
+        .resume-section {
+            margin-bottom: 30px;
+        }
+
+        .resume-section ul {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -69,67 +77,77 @@
     <section class="resume">
         <h2>My Resume</h2>
         <div class="resume-content">
-            <h3>Contact</h3>
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
-                <li><strong>Phone:</strong> (email for more details)</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
-            </ul>
-
-            <h3>Education</h3>
-            <ul>
-                <li><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)</li>
+            <div class="resume-section">
+                <h3>Contact</h3>
                 <ul>
-                    <li>B.S. Computer Information Systems</li>
-                    <li>Minor in Cybersecurity</li>
+                    <li><strong>Email:</strong> <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
+                    <li><strong>Phone:</strong> (email for more details)</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
                 </ul>
+            </div>
 
-                <li><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)</li>
+            <div class="resume-section">
+                <h3>Education</h3>
                 <ul>
-                    <li>University Studies Certificate (December 13, 2022)</li>
+                    <li><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)</li>
+                    <ul>
+                        <li>B.S. Computer Information Systems</li>
+                        <li>Minor in Cybersecurity</li>
+                    </ul>
+
+                    <li><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)</li>
+                    <ul>
+                        <li>University Studies Certificate (December 13, 2022)</li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
 
-            <h3>Coursework & Projects</h3>
-            <ul>
-                <li><strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, and Computer Organization.</li>
-                
-                <li><strong>Projects Built in C++:</strong> Linked List Based Stacks and Queues, Infix to Postfix Conversion, Finding Groups Using Recursion, Searching and Sorting, Spell Checker Using a Hash Table, Finding the Closest Pair of Points.</li>
-                
-                <li><strong>Personal Projects:</strong> Weather Predictions using Machine Learning (Python).</li>
-            </ul>
-
-            <h3>Professional Experience</h3>
-            <ul>
-                <li><strong>Finance Specialist at A&H Auto Sales, Greenville, SC</strong></li>
+            <div class="resume-section">
+                <h3>Coursework & Projects</h3>
                 <ul>
-                    <li>Maintained accurate financial records for A&H Auto Sales, including accounts payable and receivable, and expense tracking.</li>
-                    <li>Assisted with budgeting and financial reporting tasks to support organizational decision-making.</li>
-                    <li>Implemented streamlined processes to improve efficiency in financial record-keeping.</li>
+                    <li><strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, and Computer Organization.</li>
+                    <li><strong>Projects Built in C++:</strong> Linked List Based Stacks and Queues, Infix to Postfix Conversion, Finding Groups Using Recursion, Searching and Sorting, Spell Checker Using a Hash Table, Finding the Closest Pair of Points.</li>
+                    <li><strong>Personal Projects:</strong> Weather Predictions using Machine Learning (Python).</li>
                 </ul>
+            </div>
 
-                <li><strong>Financial Assistant at SB Trucking</strong></li>
+            <div class="resume-section">
+                <h3>Professional Experience</h3>
                 <ul>
-                    <li>Supported preparation of 1099 tax submissions by organizing and categorizing expenses.</li>
-                    <li>Built semi-automated accounting expense balancing tool to streamline tracking of costs.</li>
+                    <li><strong>Finance Specialist at A&H Auto Sales, Greenville, SC</strong></li>
+                    <ul>
+                        <li>Maintained accurate financial records for A&H Auto Sales, including accounts payable and receivable, and expense tracking.</li>
+                        <li>Assisted with budgeting and financial reporting tasks to support organizational decision-making.</li>
+                        <li>Implemented streamlined processes to improve efficiency in financial record-keeping.</li>
+                    </ul>
+
+                    <li><strong>Financial Assistant at SB Trucking</strong></li>
+                    <ul>
+                        <li>Supported preparation of 1099 tax submissions by organizing and categorizing expenses.</li>
+                        <li>Built semi-automated accounting expense balancing tool to streamline tracking of costs.</li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
 
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>Proficient in C</li>
-                <li>Proficient in C++</li>
-                <li>Intro Level Python</li>
-                <li>Intro Level JavaScript</li>
-                <li>Microsoft Access</li>
-                <li>Linux</li>
-                <li>Microsoft Office Specialist (MOS)</li>
-            </ul>
+            <div class="resume-section">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Proficient in C</li>
+                    <li>Proficient in C++</li>
+                    <li>Intro Level Python</li>
+                    <li>Intro Level JavaScript</li>
+                    <li>Microsoft Access</li>
+                    <li>Linux</li>
+                    <li>Microsoft Office Specialist (MOS)</li>
+                </ul>
+            </div>
 
-            <h3>Languages</h3>
-            <ul>
-                <li>English, Arabic, Spanish</li>
-            </ul>
+            <div class="resume-section">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English, Arabic, Spanish</li>
+                </ul>
+            </div>
         </div>
     </section>
 
