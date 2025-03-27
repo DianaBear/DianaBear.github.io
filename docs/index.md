@@ -1,9 +1,9 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Diana Barakat | Clemson Computer Science</title> -->
+    <title>Diana Barakat | Clemson Computer Science</title>
 
     <style>
         /* Global Styles */
@@ -18,34 +18,14 @@
         /* Navbar */
         .navbar {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 15px 30px;
             background: #D6B3E1; /* Lilac Purple */
             border-bottom: 5px solid #F66733; /* Orange Strip */
             color: white;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            padding: 0;
-        }
-
-        .nav-links li {
-            display: inline;
-        }
-
-        .nav-links li a {
-            color: white;
-            text-decoration: none;
+            font-size: 1.5rem;
             font-weight: bold;
-            padding: 10px;
-        }
-
-        .nav-links li a:hover {
-            text-decoration: underline;
         }
 
         /* Hero Section */
@@ -78,8 +58,8 @@
         }
 
         .cta:hover {
-            background: rgb(168, 7, 255); 
-            color: #333;
+            background: #A807FF;
+            color: #fff;
         }
 
         /* About Me Section */
@@ -88,29 +68,60 @@
             text-align: center;
         }
 
+        /* Skills Section */
+        .skills {
+            padding: 40px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
         /* Projects Section */
         .projects {
             padding: 40px;
             background-color: #f7f7f7;
+            text-align: center;
         }
 
         .project-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
         }
 
         .project-card {
             padding: 20px;
-            background: white;
+            background: #FFD3B6; /* Light Orange */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            color: #F66733;
         }
 
         /* Contact Section */
         .contact {
             padding: 40px;
             background-color: #e9e9e9;
+            text-align: center;
         }
 
         .contact-info ul {
@@ -147,14 +158,10 @@
     </style>
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">👩🏻‍💻 Diana Barakat</div>
-        <!-- <ul class="nav-links">
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="CareerOverview.html">Career Overview</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-        </ul> -->
+        👩🏻‍💻 Welcome
     </nav>
 
     <!-- Hero Section -->
@@ -167,10 +174,9 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a Computer Information Systems major and Cyber Security minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
+        <p>Hey there! I'm Diana, a Computer Information Systems major and Cybersecurity minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
     </section>
 
-   
     <!-- Skills Section -->
     <section class="skills">
         <h2>Skills & Expertise</h2>
@@ -180,12 +186,9 @@
             <li>Web Development: HTML & JavaScript</li>
             <li>APIs: RESTful APIs, Postman</li>
             <li>Version Control: Git, GitHub</li>
-            <li>I have also taken several Business and Accounting classes throughout my time at Clemson!</li>
+            <li>Business & Accounting knowledge from additional coursework</li>
         </ul>
     </section>
-
-
-
 
     <!-- Projects Section -->
     <section class="projects" id="projects">
@@ -223,16 +226,15 @@
         </div>
     </section>
 
-
     <footer class="footer">
-        <p> Last updated 2025 by DianaBear | Clemson University</p>
+        <p>Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
             <a href="project.html">Projects</a> | 
             <a href="about.html">About</a> | 
             <a href="CareerOverview.html">Career</a> | 
-            <a href="Resume.html">Resume</a> |
+            <a href="Resume.html">Resume</a>
         </div>
     </footer>
 
 </body>
-</html> 
+</html>
