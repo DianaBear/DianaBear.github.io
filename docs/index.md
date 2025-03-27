@@ -167,14 +167,16 @@
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My Page! 👩🏻‍💻</h1>
-        <p>Computer Science Student | Clemson University | Incoming Intern @ Vertiv</p>
+        <p>Computer Science Student @ Clemson University| Incoming Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>Hey there! I'm Diana, a Computer Information Systems major and Cybersecurity minor at Clemson University. I enjoy exploring APIs, learning new programming languages, and all things tech!</p>
+        <p>I'm Diana Barakat, a Computer Information Systems major with a Cybersecurity minor at Clemson University. I’m an undergraduate researcher in Clemson’s Creative Inquiry (CI) program, where I focus on privacy compliance in software development and quantum computing. This summer, I'll be joining Vertiv as an IT Site Support Intern!
+
+        I enjoy learning new programming languages, working with APIs, and  diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
     </section>
 
     <!-- Skills Section -->
@@ -190,28 +192,50 @@
         </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <h3>TigerChow API</h3>
-                <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
-            </div>
-            <div class="project-card">
-                <h3>Image Stacking in C</h3>
-                <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
-            </div>
-            <div class="project-card">
-                <h3>Weather Predictor (Python)</h3>
-                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms.</p>
-            </div>
-            <div class="project-card">
-                <h3>DianaBear Typing Game (C)</h3>
-                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics.</p>
-            </div>
+   <!-- Projects Section -->
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>TigerChow API</h3>
+            <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
         </div>
-    </section>
+        <div class="project-card">
+            <h3>Image Stacking in C</h3>
+            <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
+        </div>
+        <div class="project-card">
+            <h3>Weather Predictor (Python)</h3>
+            <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms.</p>
+        </div>
+        <div class="project-card">
+            <h3>DianaBear Typing Game (C)</h3>
+            <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics.</p>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Projects Section */
+    .projects {
+        padding: 40px;
+        background-color: #F4A300; /* Light Orange */
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .project-card {
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
 
     <!-- Contact Section -->
     <section class="contact">
