@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -155,6 +154,59 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
+
+        /* Resume Section */
+        .resume {
+            padding: 40px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .resume-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .resume-card {
+            padding: 20px;
+            background-color: #D6B3E1; /* Light Purple */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .resume-card h3 {
+            color: #F66733; /* Orange */
+        }
+
+        .resume-card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resume-card li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Button for downloading resume */
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #F66733; /* Orange */
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 30px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background: #A807FF;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -167,7 +219,7 @@
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My Page! 👩🏻‍💻</h1>
-        <p>Computer Science Student @ Clemson University| Incoming Intern @ Vertiv</p>
+        <p>Computer Science Student @ Clemson University | Incoming Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
@@ -190,6 +242,72 @@
             <li>Version Control: Git, GitHub</li>
             <li>Business & Accounting knowledge from additional coursework</li>
         </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <h2>My Resume</h2>
+        <p>Here's a summary of my academic background, professional experience, and skills:</p>
+        <div class="resume-container">
+            <!-- Education Section -->
+            <div class="resume-card">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>B.S. in Computer Information Systems</strong> | Clemson University | Expected Graduation: May 2026</li>
+                    <li><strong>Minor in Cybersecurity</strong> | Clemson University</li>
+                    <li><strong>University Studies Certificate</strong> | Tri-County Technical College</li>
+                </ul>
+            </div>
+
+            <!-- Coursework Section -->
+            <div class="resume-card">
+                <h3>Coursework & Projects</h3>
+                <p><strong>Relevant Coursework:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Data Structures, Operating Systems, and more.</p>
+            </div>
+
+            <!-- Professional Experience Section -->
+            <div class="resume-card">
+                <h3>Work Experience</h3>
+                <ul>
+                    <li><strong>IT Site Support Intern</strong> | Vertiv | Summer 2025</li>
+                    <li><strong>Finance Specialist</strong> | A&H Auto Sales</li>
+                    <li><strong>Financial Assistant</strong> | SB Trucking</li>
+                </ul>
+            </div>
+
+            <!-- Technical Skills Section -->
+            <div class="resume-card">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li><strong>Programming Languages:</strong> C, C++, Python, Java, R</li>
+                    <li><strong>Web Development:</strong> HTML, JavaScript</li>
+                    <li><strong>Tools & Technologies:</strong> Git, GitHub, Postman, RESTful APIs, Cloud Computing</li>
+                    <li><strong>Other Skills:</strong> Data Analysis, Cybersecurity Principles, Privacy Compliance</li>
+                </ul>
+            </div>
+
+            <!-- Languages Section -->
+            <div class="resume-card">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English, Arabic, Spanish</li>
+                </ul>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="resume-card">
+                <h3>Projects</h3>
+                <ul>
+                    <li><strong>TigerChow API</strong> | Developed an API to streamline campus food orders using Postman & microservices.</li>
+                    <li><strong>Image Stacking in C</strong> | Noise reduction in PPM images using dynamic memory allocation.</li>
+                    <li><strong>Weather Predictor (Python)</strong> | Predicting weather conditions using machine learning algorithms.</li>
+                    <li><strong>DianaBear Typing Game (C)</strong> | A fun typing game to track and improve WPM speed.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Download Resume Button -->
+        <a href="Diana_Barakat_Resume.pdf" class="cta" target="_blank">Download Full Resume</a>
     </section>
 
     <!-- Projects Section -->
@@ -228,7 +346,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <p>Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
