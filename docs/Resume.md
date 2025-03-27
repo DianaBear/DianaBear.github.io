@@ -1,177 +1,127 @@
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
-    <style>
-        /* Global Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F2F3F2;
-            color: #333;
-        }
-
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            background: #D6B3E1; /* Lilac Purple */
-            border-bottom: 5px solid #F66733; /* Orange Strip */
-            color: white;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            padding: 0;
-        }
-
-        .nav-links li {
-            display: inline;
-        }
-
-        .nav-links li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 10px;
-        }
-
-        .nav-links li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: #D6B3E1; /* Lilac Purple */
-            color: white;
-            padding: 80px 20px;
-            border-bottom: 5px solid #F66733; /* Orange Strip */
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-        }
-
-        .cta {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
-            color: #F66733;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            transition: 0.3s;
-        }
-
-        .cta:hover {
-            background: rgb(168, 7, 255); 
-            color: #333;
-        }
-
-        /* Projects Section */
-        .projects {
-            padding: 40px;
-            background-color: #f7f7f7;
-        }
-
-        .project-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-        }
-
-        .project-card {
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Styling for images (code snippets) */
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <h1>My Resume 👩🏻‍💻</h1>
-        <!-- <p>.</p> -->
-    </header>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>Checkers Game Project</h2>
-        <p>This project is a checkers game built using [language/framework]. Below is a screenshot of the code:</p>
-        <img src="images/checkers_code.png" alt="Checkers Project Code Snippet">
-
-        <h2>Data Science Project (Python)</h2>
-        <p>This project uses IPEDS data to analyze the number of men and women in computer science nationally and at Clemson University. Below is a screenshot of the code:</p>
-        <img src="CodeSnippets/womenCPSC code snippet.png" alt="Data Science Project Code Snippet">
-
-        <h2>US vs. France Government Comparison (R)</h2>
-        <p>This project compares the US and French governments using R. Below is a screenshot of the code:</p>
-        <img src="CodeSnippets/R code snippet.png" alt="US vs France Code Snippet">
-
-        <!-- Add more project sections as needed -->
-
-        <h2>Personal Website (Jekyll + GitHub Pages)</h2>
-        <p>This is my personal website built using Jekyll and hosted on GitHub Pages. This website is the final version of my project!</p>
-
-        <h2>Microservices Project: Spotify API (API Development)</h2>
-        <p>This project involves integrating with the Spotify API to retrieve and display information. This API creates a personalized playlist, adds prespecified songs to playlist, and retrieves user data. Below are some screenshots of the API specification and the data retrieved from the API:</p>
-        <img src="CodeSnippets/code example api spot.png" alt="Microservices API Screensho1">
-        <img src="CodeSnippets/GetsPostStructure.png" alt="Microservices API Screenshot2">
-        <img src="CodeSnippets/SuccessfullyCreatedPlaylist.png" alt="Microservices API Screenshot3">
-
-
-        <h2>TigerChow Postman API</h2>
-        <p>This project involves creating and testing the API specifications for the TigerChow application using Postman. The goal is to define, test, and document the API endpoints to ensure seamless integration between the backend and frontend of the application. Below is a screenshot of the API specifications and test results in Postman:</p>
-        <img src="CodeSnippets/tigerchowaccts.png" alt="Postman Collections Screenshot">
-        <img src="CodeSnippets/tigerchownotifs.png" alt="Postman Collections Screenshot">
-
-        <h2>Typing Game (Python)</h2>
-        <p>This project started as a tool to help me study and review notes through typing practice. The game allows you to paste in custom text, like lecture notes or study material, and it helps you type them accurately and quickly. Over time, the game was enhanced to support typing practice with song lyrics, turning it into a fun and engaging way to practice typing skills while listening to your favorite music. Below is a screenshot of the game:</p>
-        <img src="CodeSnippets/DianaBear typing game.png" alt="Typing Game Code Snippet">
-
-
-        <h2>Stack Implementation with Design Patterns</h2>
-        <p>This project involved implementing a stack data structure with different design patterns (Factory, Singleton, etc.). Below is a screenshot of the code:</p>
-        <img src="CodeSnippets/stack_design_patterns.png" alt="Stack with Design Patterns Code Snippet">
-
-        <h2>SDLC and Agile Methodology Project</h2>
-        <p>During the tigerChow project, we focused on the Software Development Life Cycle (SDLC) and Agile methodologies. My group voted for me to be the Scrum Master, so I was in charge of keeping Trello updated and setting up dates. Below is a screenshot of the Agile Kanban board and project progress:</p>
-        <img src="CodeSnippets/trello.png" alt="Agile Kanban Board Screenshot">
-    </section>
-
-<footer class="footer">
-        <p> Last updated 2025 by DianaBear | Clemson University</p>
-        <div class="footer-links">
-            <a href="index.html">Home</a> |
-            <a href="project.html">Project</a> |
-            <a href="about.html">About</a> |  
-            <a href="CareerOverview.html">Career</a> |
+<!-- Resume Section -->
+<section class="resume">
+    <h2>Resume</h2>
+    <div class="resume-container">
+        <div class="resume-header">
+            <h3>Diana Barakat</h3>
+            <p>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a> | Phone: (email for more details)</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/" target="_blank">Diana Barakat</a></p>
         </div>
-    </footer>
 
-</body>
-</html>
+        <h3>Education</h3>
+        <div class="resume-item">
+            <strong>Clemson University</strong> - Clemson, SC  
+            <p>B.S. in Computer Information Systems | Minor in Cybersecurity</p>
+            <p>August 2023 – Present</p>
+        </div>
+        <div class="resume-item">
+            <strong>Tri-County Technical College</strong> - Pendleton, SC  
+            <p>University Studies Certificate – December 13, 2022</p>
+            <p>August 2021 – June 2022</p>
+        </div>
+
+        <h3>Coursework & Projects</h3>
+        <div class="resume-item">
+            <strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, Computer Organization.
+        </div>
+        <div class="resume-item">
+            <strong>Projects Built in C++:</strong>
+            <ul>
+                <li>Linked List-Based Stacks and Queues</li>
+                <li>Infix to Postfix Conversion</li>
+                <li>Finding Groups Using Recursion</li>
+                <li>Searching and Sorting</li>
+                <li>Spell Checker Using a Hash Table</li>
+                <li>Finding the Closest Pair of Points</li>
+            </ul>
+        </div>
+        <div class="resume-item">
+            <strong>Personal Projects:</strong> Weather Predictions Using Machine Learning (Python)
+        </div>
+
+        <h3>Professional Experience</h3>
+        <div class="resume-item">
+            <strong>Finance Specialist at A&H Auto Sales</strong> - Greenville, SC  
+            <ul>
+                <li>Maintained accurate financial records for A&H Auto Sales, including accounts payable and receivable, and expense tracking.</li>
+                <li>Assisted with budgeting and financial reporting tasks to support organizational decision-making.</li>
+                <li>Implemented streamlined processes to improve efficiency in financial record-keeping.</li>
+            </ul>
+        </div>
+        <div class="resume-item">
+            <strong>Financial Assistant at SB Trucking</strong>  
+            <ul>
+                <li>Supported preparation of 1099 tax submissions by organizing and categorizing expenses.</li>
+                <li>Built a semi-automated accounting expense balancing tool to streamline tracking of costs.</li>
+            </ul>
+        </div>
+
+        <h3>Skills</h3>
+        <div class="resume-item skills">
+            <ul>
+                <li>Proficient in C, C++, Python, and JavaScript (intro)</li>
+                <li>Linux and Microsoft Access</li>
+                <li>Microsoft Office Specialist (MOS)</li>
+            </ul>
+        </div>
+
+        <h3>Languages</h3>
+        <div class="resume-item">
+            <ul>
+                <li>English, Arabic, Spanish</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Styling for Resume Section -->
+<style>
+    .resume {
+        padding: 40px;
+        background-color: #f9f9f9;
+        text-align: left;
+    }
+
+    .resume h2 {
+        color: #6a4c9c; /* Lilac Purple */
+        text-align: center;
+    }
+
+    .resume-container {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .resume-item {
+        margin-bottom: 20px;
+    }
+
+    .resume-header h3 {
+        font-size: 2rem;
+        color: #6a4c9c;
+    }
+
+    .resume-item ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .resume-item ul li {
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+
+    .skills ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+    .resume-item a {
+        color: #F66733;
+        text-decoration: none;
+    }
+
+    .resume-item a:hover {
+        text-decoration: underline;
+    }
+</style>
