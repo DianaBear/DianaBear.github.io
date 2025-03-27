@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Barakat | Resume</title>
-
+    
     <style>
         /* Global Styles */
         body {
@@ -15,59 +14,126 @@
             color: #333;
         }
 
-        /* Resume Section */
-        .resume {
-            padding: 40px;
-            background-color: #f9f9f9;
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
+            color: white;
         }
 
-        .resume h2 {
-            font-size: 2.5rem;
-            color: #D6B3E1; /* Purple color for the title */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #D6B3E1; /* Lilac Purple */
+            color: white;
+            padding: 80px 20px;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             text-align: center;
         }
 
-        .resume-content {
-            background-color: #D6B3E1; /* Light purple for the background */
-            color: white;
-            padding: 20px;
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
+            color: #F66733;
+            font-weight: bold;
+            text-decoration: none;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            transition: 0.3s;
         }
 
-        .resume-content h3 {
-            font-size: 1.8rem;
-            color: #F66733; /* Orange color for subheadings */
+        .cta:hover {
+            background: rgb(168, 7, 255); 
+            color: #333;
         }
 
-        .resume-content ul {
+        /* Content Section */
+        .content {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            color: #D6B3E1;
+        }
+
+        .content ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
         }
 
-        .resume-content li {
-            margin-bottom: 15px;
+        .content li {
+            margin-bottom: 10px;
             font-size: 1.2rem;
             line-height: 1.6;
         }
 
-        .resume-content a {
-            color: #F66733; /* Orange link color */
+        .content a {
+            color: #F66733;
             text-decoration: none;
         }
 
-        .resume-content a:hover {
-            color: #D45F25; /* Darker orange on hover */
+        .content a:hover {
             text-decoration: underline;
         }
 
-        .resume-section {
-            margin-bottom: 30px;
+        /* Footer */
+        .footer {
+            padding: 20px;
+            background-color: #D6B3E1;
+            text-align: center;
+            color: white;
         }
 
-        .resume-section ul {
-            margin-left: 20px;
+        .footer-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
