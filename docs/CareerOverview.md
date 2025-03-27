@@ -183,8 +183,7 @@
         <p>I am passionate about expanding my expertise in software engineering, cybersecurity, and cloud technologies. I aim to contribute to innovative solutions that improve technology accessibility and efficiency.</p>
 
         <h2>Learn More</h2>
-        <p><a href="/resume/" class="cta">View My Resume</a></p>
-        <p><a href="https://www.linkedin.com/in/dianabear/" target="_blank">Visit My LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/dianabear/" class="cta">Visit My Linkedin</a></p>
     </section>
 
     <!-- Footer -->
@@ -194,7 +193,7 @@
             <a href="index.html">Home</a> |
             <a href="project.html">Projects</a> |  
             <a href="about.html">About</a> | 
-            <a href="resume.html">Resume</a>
+            <a href="Resume.html">Resume</a>
         </div>
     </footer>
 
