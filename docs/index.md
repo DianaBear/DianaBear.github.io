@@ -133,6 +133,17 @@
             margin-bottom: 10px;
         }
 
+        .contact-info a {
+            color: #F66733; /* Orange link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    .contact-info a:hover {
+        color: #D45F25; /* Darker orange on hover */
+        text-decoration: underline;
+    }
+
         /* Footer */
         .footer {
             padding: 20px;
@@ -155,19 +166,16 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
+        
     </style>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        👩🏻‍💻 Welcome
-    </nav>
 
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to My Page! 👩🏻‍💻</h1>
-        <p>Computer Science Student @ Clemson University| Incoming Intern @ Vertiv</p>
+        <p>Computer Science Student @ Clemson University | Incoming Intern @ Vertiv</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
