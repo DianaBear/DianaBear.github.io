@@ -192,7 +192,7 @@
         </ul>
     </section>
 
-   <!-- Projects Section -->
+<!-- Projects Section -->
 <section class="projects" id="projects">
     <h2>My Projects</h2>
     <div class="project-container">
@@ -219,7 +219,7 @@
     /* Projects Section */
     .projects {
         padding: 40px;
-        background-color: #F4A300; /* Light Orange */
+        background-color: #f7f7f7;
     }
 
     .project-container {
@@ -230,7 +230,7 @@
 
     .project-card {
         padding: 20px;
-        background: white;
+        background: #FFC39B; /* Light Orange Hue */
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
