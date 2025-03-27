@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Barakat | Clemson Computer Science</title>
+    <title>Diana Barakat | Resume</title>
 
     <style>
         /* Global Styles */
@@ -14,147 +15,6 @@
             color: #333;
         }
 
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px 30px;
-            background: #D6B3E1; /* Lilac Purple */
-            border-bottom: 5px solid #F66733; /* Orange Strip */
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: #D6B3E1; /* Lilac Purple */
-            color: white;
-            padding: 80px 20px;
-            border-bottom: 5px solid #F66733; /* Orange Strip */
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-        }
-
-        .cta {
-            display: inline-block;
-            padding: 12px 24px;
-            background: white;
-            color: #F66733;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            transition: 0.3s;
-        }
-
-        .cta:hover {
-            background: #A807FF;
-            color: #fff;
-        }
-
-        /* About Me Section */
-        .about {
-            padding: 40px;
-            text-align: center;
-        }
-
-        /* Skills Section */
-        .skills {
-            padding: 40px;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .skills li {
-            margin-bottom: 10px;
-            font-size: 1.1rem;
-        }
-
-        /* Projects Section */
-        .projects {
-            padding: 40px;
-            background-color: #f7f7f7;
-            text-align: center;
-        }
-
-        .project-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .project-card {
-            padding: 20px;
-            background: #D6B3E1; /* Light Orange */
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .project-card h3 {
-            color: #F66733;
-        }
-
-        /* Contact Section */
-        .contact {
-            padding: 40px;
-            background-color: #e9e9e9;
-            text-align: center;
-        }
-
-        .contact-info ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .contact-info li {
-            margin-bottom: 10px;
-        }
-
-        /* Footer */
-        .footer {
-            padding: 20px;
-            background-color: #D6B3E1;
-            text-align: center;
-            color: white;
-        }
-
-        .footer-links {
-            margin-top: 10px;
-        }
-
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
-
         /* Resume Section */
         .resume {
             padding: 40px;
@@ -162,199 +22,116 @@
             text-align: center;
         }
 
-        .resume-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
+        .resume h2 {
+            font-size: 2.5rem;
+            color: #D6B3E1; /* Purple color for the title */
         }
 
-        .resume-card {
+        .resume-content {
+            background-color: #D6B3E1; /* Light purple for the background */
+            color: white;
             padding: 20px;
-            background-color: #D6B3E1; /* Light Purple */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .resume-card h3 {
-            color: #F66733; /* Orange */
+        .resume-content h3 {
+            font-size: 1.8rem;
+            color: #F66733; /* Orange color for subheadings */
         }
 
-        .resume-card ul {
+        .resume-content ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
-        .resume-card li {
-            margin-bottom: 10px;
-            font-size: 1.1rem;
+        .resume-content li {
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            line-height: 1.6;
         }
 
-        /* Button for downloading resume */
-        .cta {
-            display: inline-block;
-            padding: 12px 24px;
-            background: #F66733; /* Orange */
-            color: white;
-            font-weight: bold;
+        .resume-content a {
+            color: #F66733; /* Orange link color */
             text-decoration: none;
-            border-radius: 8px;
-            margin-top: 30px;
-            transition: 0.3s;
         }
 
-        .cta:hover {
-            background: #A807FF;
-            color: #fff;
+        .resume-content a:hover {
+            color: #D45F25; /* Darker orange on hover */
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        👩🏻‍💻 Welcome
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <h1>Welcome to My Page! 👩🏻‍💻</h1>
-        <p>Computer Science Student @ Clemson University | Incoming Intern @ Vertiv</p>
-        <a href="#projects" class="cta">View My Work</a>
-    </header>
-
-    <!-- About Me Section -->
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I'm Diana Barakat, a Computer Information Systems major with a Cybersecurity minor at Clemson University. I’m an undergraduate researcher in Clemson’s Creative Inquiry (CI) program, where I focus on privacy compliance in software development and quantum computing. This summer, I'll be joining Vertiv as an IT Site Support Intern!
-
-        I enjoy learning new programming languages, working with APIs, and diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="skills">
-        <h2>Skills & Expertise</h2>
-        <p>Here are some of the skills I’ve developed throughout my studies and projects:</p>
-        <ul>
-            <li>Programming Languages: C, C++, Python, Java, and R</li>
-            <li>Web Development: HTML & JavaScript</li>
-            <li>APIs: RESTful APIs, Postman</li>
-            <li>Version Control: Git, GitHub</li>
-            <li>Business & Accounting knowledge from additional coursework</li>
-        </ul>
-    </section>
-
     <!-- Resume Section -->
-    <section class="resume" id="resume">
+    <section class="resume">
         <h2>My Resume</h2>
-        <p>Here's a summary of my academic background, professional experience, and skills:</p>
-        <div class="resume-container">
-            <!-- Education Section -->
-            <div class="resume-card">
-                <h3>Education</h3>
-                <ul>
-                    <li><strong>B.S. in Computer Information Systems</strong> | Clemson University | Expected Graduation: May 2026</li>
-                    <li><strong>Minor in Cybersecurity</strong> | Clemson University</li>
-                    <li><strong>University Studies Certificate</strong> | Tri-County Technical College</li>
-                </ul>
-            </div>
-
-            <!-- Coursework Section -->
-            <div class="resume-card">
-                <h3>Coursework & Projects</h3>
-                <p><strong>Relevant Coursework:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Data Structures, Operating Systems, and more.</p>
-            </div>
-
-            <!-- Professional Experience Section -->
-            <div class="resume-card">
-                <h3>Work Experience</h3>
-                <ul>
-                    <li><strong>IT Site Support Intern</strong> | Vertiv | Summer 2025</li>
-                    <li><strong>Finance Specialist</strong> | A&H Auto Sales</li>
-                    <li><strong>Financial Assistant</strong> | SB Trucking</li>
-                </ul>
-            </div>
-
-            <!-- Technical Skills Section -->
-            <div class="resume-card">
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li><strong>Programming Languages:</strong> C, C++, Python, Java, R</li>
-                    <li><strong>Web Development:</strong> HTML, JavaScript</li>
-                    <li><strong>Tools & Technologies:</strong> Git, GitHub, Postman, RESTful APIs, Cloud Computing</li>
-                    <li><strong>Other Skills:</strong> Data Analysis, Cybersecurity Principles, Privacy Compliance</li>
-                </ul>
-            </div>
-
-            <!-- Languages Section -->
-            <div class="resume-card">
-                <h3>Languages</h3>
-                <ul>
-                    <li>English, Arabic, Spanish</li>
-                </ul>
-            </div>
-
-            <!-- Projects Section -->
-            <div class="resume-card">
-                <h3>Projects</h3>
-                <ul>
-                    <li><strong>TigerChow API</strong> | Developed an API to streamline campus food orders using Postman & microservices.</li>
-                    <li><strong>Image Stacking in C</strong> | Noise reduction in PPM images using dynamic memory allocation.</li>
-                    <li><strong>Weather Predictor (Python)</strong> | Predicting weather conditions using machine learning algorithms.</li>
-                    <li><strong>DianaBear Typing Game (C)</strong> | A fun typing game to track and improve WPM speed.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Download Resume Button -->
-        <a href="Diana_Barakat_Resume.pdf" class="cta" target="_blank">Download Full Resume</a>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <h3>TigerChow API</h3>
-                <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
-            </div>
-            <div class="project-card">
-                <h3>Image Stacking in C</h3>
-                <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
-            </div>
-            <div class="project-card">
-                <h3>Weather Predictor (Python)</h3>
-                <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms.</p>
-            </div>
-            <div class="project-card">
-                <h3>DianaBear Typing Game (C)</h3>
-                <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <p>Feel free to connect with me via the following:</p>
+        <div class="resume-content">
+            <h3>Contact</h3>
             <ul>
-                <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
-                <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
+                <li><strong>Email:</strong> <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
+                <li><strong>Phone:</strong> (email for more details)</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
+            </ul>
+
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Clemson University, Clemson, SC</strong> (August 2023 – Present)</li>
+                <ul>
+                    <li>B.S. Computer Information Systems</li>
+                    <li>Minor in Cybersecurity</li>
+                </ul>
+
+                <li><strong>Tri-County Technical College, Pendleton, SC</strong> (August 2021 – June 2022)</li>
+                <ul>
+                    <li>University Studies Certificate (December 13, 2022)</li>
+                </ul>
+            </ul>
+
+            <h3>Coursework & Projects</h3>
+            <ul>
+                <li><strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, and Computer Organization.</li>
+                
+                <li><strong>Projects Built in C++:</strong> Linked List Based Stacks and Queues, Infix to Postfix Conversion, Finding Groups Using Recursion, Searching and Sorting, Spell Checker Using a Hash Table, Finding the Closest Pair of Points.</li>
+                
+                <li><strong>Personal Projects:</strong> Weather Predictions using Machine Learning (Python).</li>
+            </ul>
+
+            <h3>Professional Experience</h3>
+            <ul>
+                <li><strong>Finance Specialist at A&H Auto Sales, Greenville, SC</strong></li>
+                <ul>
+                    <li>Maintained accurate financial records for A&H Auto Sales, including accounts payable and receivable, and expense tracking.</li>
+                    <li>Assisted with budgeting and financial reporting tasks to support organizational decision-making.</li>
+                    <li>Implemented streamlined processes to improve efficiency in financial record-keeping.</li>
+                </ul>
+
+                <li><strong>Financial Assistant at SB Trucking</strong></li>
+                <ul>
+                    <li>Supported preparation of 1099 tax submissions by organizing and categorizing expenses.</li>
+                    <li>Built semi-automated accounting expense balancing tool to streamline tracking of costs.</li>
+                </ul>
+            </ul>
+
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Proficient in C</li>
+                <li>Proficient in C++</li>
+                <li>Intro Level Python</li>
+                <li>Intro Level JavaScript</li>
+                <li>Microsoft Access</li>
+                <li>Linux</li>
+                <li>Microsoft Office Specialist (MOS)</li>
+            </ul>
+
+            <h3>Languages</h3>
+            <ul>
+                <li>English, Arabic, Spanish</li>
             </ul>
         </div>
     </section>
-
-    <footer class="footer">
-        <p>Last updated 2025 by DianaBear | Clemson University</p>
-        <div class="footer-links">
-            <a href="project.html">Projects</a> | 
-            <a href="about.html">About</a> | 
-            <a href="CareerOverview.html">Career</a> | 
-            <a href="Resume.html">Resume</a>
-        </div>
-    </footer>
 
 </body>
 </html>
